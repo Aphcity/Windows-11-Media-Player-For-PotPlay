@@ -1,0 +1,15 @@
+	<Static Align="Top" Height="30" ImageLeft="0" ImageTop="265" ImageWidth="35" ImageHeight="30" AltImageLeft="0" AltImageTop="265" LeftMargin="1" RightMargin="1" IsTitleBar="1" UsingRgn="1" >
+		<Button Tooltip="$ID_MINSCREEN" CmdID="ID_MINSCREEN" Left="-135" Top="0" Width="45" Height="30" ImageLeft="123" ImageTop="0" />
+		<Button Tooltip="$CMD_MAX_WINDOW" CmdID="CMD_MAX_WINDOW" Left="-90" Top="0" Width="45" Height="30" ImageLeft="123" ImageTop="30" />
+		<Button Tooltip="$CMD_RESTORE_WINDOW" CmdID="CMD_RESTORE_WINDOW" Left="-90" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="0" />
+		<Button Tooltip="$ID_APP_EXIT" CmdID="ID_APP_EXIT" Left="-45" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="30" />
+		<Button Tooltip="$CMD_MAIN_MENU" CmdID="CMD_MAIN_MENU" Left="0" Top="0" Width="120" Height="30" ImageLeft="393" ImageTop="0" />
+		<!--<Button Tooltip="$CMD_PLAYLIST_WINDOW_ON" CmdID="CMD_PLAYLIST_WINDOW_ON" AutoVisible="1" Left="0" Top="0" Width="48" Height="30" ImageLeft="393" ImageTop="30" />
+		<Button Tooltip="$CMD_PLAYLIST_WINDOW_OFF" CmdID="CMD_PLAYLIST_WINDOW_OFF" AutoVisible="1" Left="0" Top="0" Width="48" Height="30" ImageLeft="393" ImageTop="30" />-->
+		<Button Tooltip='OSC' CmdID='CMD_POPUPMENU_SKIN_OSC' Left="120" Width='45' Height="30" ImageLeft='0' ImageTop='190' VertCenter='1' />
+		<Button Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_PLAYLIST' Left='-225' Top='0' Width='45' Height='30' ImageLeft='123' ImageTop='60' />
+		<Button Tooltip="$ALWAYS_ON_TOP_CYCLE" CmdID="ID_ETC_NEXTONTOP" Left="-180" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="60" AutoVisible="1" />
+		<Button Tooltip="$ALWAYS_ON_TOP" CmdID="ID_ETC_NEXTONTOP" Left="-180" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="60" AutoVisible="2" />
+		<Button Tooltip="$ALWAYS_ON_TOP_PLAY" CmdID="ID_ETC_NEXTONTOP" Left="-180" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="60" AutoVisible="3" />
+		<Button Tooltip="$ALWAYS_ON_TOP_FULL" CmdID="ID_ETC_NEXTONTOP" Left="-180" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="60" AutoVisible="4" />-->
+	</Static>

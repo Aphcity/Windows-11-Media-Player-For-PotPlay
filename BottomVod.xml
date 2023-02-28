@@ -1,0 +1,25 @@
+﻿	<Static Align='Bottom' State='CMD_WEB_VOD' Left='0' Top='0' Height='30'>
+		
+		<Static Align='Left' Width='130' ImageLeft='0' ImageRight='0' ImageWidth='35' ImageHeight='30' LeftMargin='1' RightMargin='1' >
+			<Label CmdID='CMD_WEB_VOD_AUTHOR_MESSAGE' Width='100' AutoVisible='1' Cursor='HAND' Enabled='1' ColorX='73' ColorY='114' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontBold='1' FontSize='13' VertAlignment='1' HoriAlignment='1' HoriCenter='1' />
+		</Static>
+
+		<Static Align='Right' Width='100' ImageRight='0' ImageWidth='35' ImageHeight='30' LeftMargin='1' RightMargin='1'  >
+            <Button CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' Width='100' Height='30' ImageLeft='770' ImageWidth='100' ImageHeight='30' LeftMargin='5' RightMargin='5' HoriCenter='1' VertCenter='1' >
+			    <Label Enabled='1' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' Width='100' Cursor='HAND' AutoVisible='1' AutoSize='1' ColorX='73' ColorY='114' Width='80' FontName='#DEFAULT_UI_FONT' FontBold='1' FontSize='13' VertAlignment='1' HoriAlignment='1' HoriCenter='1' />
+            </Button>
+        </Static>
+
+		<Static Align='Right' Width='25' ImageRight='0' ImageWidth='35' ImageHeight='30' LeftMargin='1' RightMargin='1'  > 
+			<Label CmdID='CMD_VOD_FACEBOOK_URL' AutoVisible='1' AutoSize='1' Cursor='HAND' Enabled='1' ColorX='70' ColorY='20' Width='65' FontName='#DEFAULT_UI_FONT' FontBold='1' FontSize='15' HoriAlignment='1' VertAlignment='1' Text=' f ' HoriCenter='1' Tooltip='facebook' />
+		</Static>
+       
+		<Static Align='Right' Width='25' ImageRight='0' ImageWidth='35' ImageHeight='30' LeftMargin='1' RightMargin='1'  >
+			<Label CmdID='CMD_VOD_TWITTER_URL' AutoVisible='1' AutoSize='1' Cursor='HAND' Enabled='1' ColorX='70' ColorY='20' Width='50' FontName='#DEFAULT_UI_FONT' FontBold='1' FontSize='15' HoriAlignment='1' VertAlignment='1' Text=' t ' HoriCenter='1' Tooltip='twitter' />
+		</Static>
+		
+		<Static Align='Client' ImageRight='0' ImageWidth='35' ImageHeight='30' LeftMargin='1' RightMargin='1' >
+			<Label Align='Client' CmdID='CMD_WEB_VOD_CONTENT_MESSAGE' ColorX='98' AutoVisible='1' ColorY='10' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+		</Static>
+
+	</Static>

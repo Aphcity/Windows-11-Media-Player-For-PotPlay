@@ -1,0 +1,77 @@
+﻿<Menu>
+	<UserMenu Name="OpenMenu" >
+		<MenuItem CmdID="ID_OPEN_FILE" />
+		<MenuItem CmdID="ID_OPEN_URL" />
+		<MenuItem CmdID="ID_OPEN_CLIPBOARD" />
+		<MenuItem CmdID="ID_OPEN_FOLDER" />
+		<MenuItem CmdID="ID_OPEN_DVD" />
+		<MenuItem CmdID="ID_OPEN_BLURAY" />
+	</UserMenu>
+
+	<UserMenu Name="VideoCodecMenu" >
+		<MenuItem CmdID="ID_VIDEO_DXVA" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="ID_PLAYINFO_WINDOW" />
+	</UserMenu>
+
+	<UserMenu Name="AudioSubtitleMenu" >
+		<MenuItem CmdID="ID_CAPTION_VISIBLE" />
+		<MenuItem CmdID="CMD_POPUPMENU_CAPTION_LANG" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="CMD_POPUPMENU_AUDIO_LANG" />
+		<MenuItem CmdID="ID_AUDIO_SPDIF" />
+	</UserMenu>
+
+	<UserMenu Name="AudioCodecMenu" >
+		<MenuItem CmdID="ID_AUDIO_SPDIF" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="ID_PLAYINFO_WINDOW" />
+	</UserMenu>
+
+	<UserMenu Name='DvdPopupMenu' >
+		<MenuItem CmdID='ID_DVD_PREV_CHAPTER' />
+		<MenuItem CmdID='ID_DVD_NEXT_CHAPTER' />
+		<MenuItem CmdID='ID_DVD_RESUME' />
+		<MenuItem CmdID='ID_DVD_ROOT_MENU' />
+		<MenuItem CmdID='ID_DVD_TITLE_MENU' />
+		<MenuItem CmdID='ID_DVD_CHAPTER_MENU' />
+		<MenuItem CmdID='ID_DVD_AUDIO_MENU' />
+		<MenuItem CmdID='ID_DVD_CAPTION_MENU' />
+		<MenuItem CmdID='ID_DVD_ANGLE_MENU' />
+	</UserMenu>
+
+	<UserMenu Name="DVDAudioSubtitleMenu" >
+		<MenuItem CmdID="CMD_POPUPMENU_DVD_AUDIO" />
+		<MenuItem CmdID="CMD_POPUPMENU_DVD_CAPTION" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="ID_AUDIO_SPDIF" />
+	</UserMenu>
+
+	<UserMenu Name="EQMenu" >
+		<MenuItem CmdID="ID_AUDIO_EQULIZER" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="CMD_POPUPMENU_AUDIO_EQULIZER" NoSubMenu="1" />
+	</UserMenu>
+
+	<UserMenu Name="AddMenu" >
+		<MenuItem CmdID="ID_PLAYLIST_FILE_ADD" />
+		<MenuItem CmdID="ID_PLAYLIST_FOLDER_ADD" />
+		<MenuItem CmdID="ID_PLAYLIST_URL_ADD" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="ID_PLAYLIST_FIND_FILE" />
+	</UserMenu>
+
+	<UserMenu Name="PlayModeMenu" >
+		<MenuItem CmdID="ID_PLAYBACK_REPEAT_NONE" />
+		<MenuItem CmdID="ID_PLAYBACK_REPEAT_ALL" />
+		<MenuItem CmdID="ID_PLAYBACK_REPEAT_ONE" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="ID_PLAYBACK_SHUFFLE" />
+	</UserMenu>
+
+	<UserMenu Name="SubtitleSelMenu" >
+		<MenuItem CmdID="ID_CAPTION_VISIBLE" />
+		<MenuItem CmdID="" />
+		<MenuItem CmdID="CMD_POPUPMENU_CAPTION_LANG" NoSubMenu="1" />
+	</UserMenu>
+</Menu>

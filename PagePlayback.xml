@@ -1,0 +1,66 @@
+﻿<Label Text="$PLAYBACKSETTINGS" Left="20" Top="14" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="20" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+<Label Text="$SPEED" Left="20" Top="65" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+
+<Button CmdID="ID_PLAY_SPEED_SLOWER" Top="103" Left="20" Width="80" Height="25" ImageLeft="331" ImageTop="405" >
+    <Label Text="$ID_PLAY_SPEED_SLOWER" Width="66" Height="22" FontName="Segoe UI" FontSize="13" TextColor="0xFFFFFF" HoriAlignment="1" VertAlignment="1" />
+</Button>
+<Button CmdID="ID_PLAY_SPEED_NORMAL" Top="103" Left="100"  Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+<Button CmdID="ID_PLAY_SPEED_FASTER" Top="103" Left="130"  Width="80" Height="25" ImageLeft="331" ImageTop="405" >
+    <Label Text="$ID_PLAY_SPEED_FASTER" Width="66" Height="22" FontName="Segoe UI" FontSize="13" TextColor="0xFFFFFF" HoriAlignment="1" VertAlignment="1" />
+</Button>
+
+<Label Text='$CONTROL_JUMP_TO' Left="20" Top="140" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+<Button CmdID="ID_PLAYBACK_1MIN_BACK" Top="178" Left="20" Top="110" Width="50" Height="25" ImageLeft="331" ImageTop="455"  />
+<Button CmdID="ID_PLAYBACK_5SEC_BACK" Top="178" AltCmdID="ID_PLAY_PREV_FRAME" Left="75" Top="110" Width="50" Height="25" ImageLeft="331" ImageTop="430"  />
+<Button CmdID="ID_PLAYBACK_5SEC_FORW" Top="178" AltCmdID="ID_PLAY_NEXT_FRAME" Left="130" Top="110" Width="50" Height="25" ImageLeft="481" ImageTop="430"  />
+<Button CmdID="ID_PLAYBACK_1MIN_FORW" Top="178" Left="185" Top="110" Width="50" Height="25" ImageLeft="481" ImageTop="455"  />
+
+<Label Text='$CONTROL_AB_REPEAT' Left="20" Top="215" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+
+<Button CmdID="ID_PLAY_REPEAT_START_SET" Left="20" Top="253" Width="30" Height="25" ImageLeft="331" ImageTop="505"  />
+<Label Text="A" Left="20" Top="253" Width="30" Height="25" FontName="Segoe UI" FontSize="12" FontBold="1" VertAlignment="1" HoriAlignment="1" TextColor="0xFFFFFF"  />
+<Image Left="50" Top="253" Width="60" Height="25" ImageLeft="331" ImageTop="480" ImageWidth="60" ImageHeight="25"  />
+<Label CmdID="CMD_REPEAT_START_MESSAGE" Left="50" Top="253" Width="60" Height="25" FontName="Segoe UI" FontSize="12" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1"  />
+
+<Button CmdID="ID_PLAY_REPEAT_RESET" Left="110" Top="253" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+
+<Image Left="141" Top="253" Width="60" Height="25" ImageLeft="421" ImageTop="480" ImageWidth="60" ImageHeight="25" />
+<Label CmdID="CMD_REPEAT_END_MESSAGE" Left="141" Top="253" Width="60" Height="25" FontName="Segoe UI" FontSize="12" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1"  />
+
+<Button CmdID="ID_PLAY_REPEAT_STOP_SET" Left="201" Top="253" Width="30" Height="25" ImageLeft="421" ImageTop="505"  />
+<Label Text="B" Left="201" Top="253" Width="30" Height="25" FontName="Segoe UI" FontSize="12" FontBold="1" VertAlignment="1" HoriAlignment="1" TextColor="0xFFFFFF"  />
+        
+<!--<Static Align="Top" Width="388" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" > 
+    <Static Align="Top" Left="20" Width="322" Height="65" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" > 
+        
+    </Static>
+    
+    
+    <Static Left="20" Top="70" Width="322" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" > 
+        
+        <Static Top="30" Width="322" Height="25" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" >  
+            
+        </Static>
+    </Static>
+         
+    <Static Left="20" Top="70" Width="322" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" > 
+        <Label Text='$CONTROL_JUMP_TO' FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+        <Static Align="Left" Height="20" Height="20" ImageLeft="243" ImageTop="8" ImageWidth="15" ImageHeight="15" LeftMargin="1" RightMargin="1" >  
+            
+        </Static>
+    </Static>
+
+    
+
+
+    
+
+       
+
+		
+
+
+	
+	<Label Text="$SEEK" Left="30" Top="110" Width="58" Height="22" FontName="Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xdbd9d9" />
+	<Label Text="$REPEAT" Left="30" Top="164" Width="72" Height="22" FontName="Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xdbd9d9" />
+</Static>-->

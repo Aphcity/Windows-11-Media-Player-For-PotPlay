@@ -1,0 +1,85 @@
+<Static Align="Bottom" Height="90" ImageLeft="0" ImageTop="1" ImageWidth="35" ImageHeight="80" TopMargin="2" BottomMargin="2" LeftMargin="2" RightMargin="2" UsingRgn="0" >
+	
+<!--Bottom Left-->
+	<Label CmdID="CMD_TITLE_WITH_MESSAGE" Left="30" Top="0" Width="390" Height="70" TextColor="0xffffff" FontName="Segoe UI" FontSize="20" FontBold="1" UsingScroll="1" ScrollDistance="3" ScrollInterval="500" VertAlignment="1" VertCenter="1" VisParentMinWidth="1280" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_OFF" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="450" Height="80" ImageLeft="307" ImageTop="150" ImageHeight="80" ImageWidth="450" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="1280" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_ON" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="450" Height="80" ImageLeft="307" ImageTop="150" ImageHeight="80" ImageWidth="450" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="1280" />
+
+	<Label CmdID="CMD_TITLE_WITH_MESSAGE" Left="30" Top="0" Width="300" Height="70" TextColor="0xffffff" FontName="Segoe UI" FontSize="20" FontBold="1" UsingScroll="1" ScrollDistance="3" ScrollInterval="500" VertAlignment="1" VertCenter="1" VisParentMinWidth="1080" VisParentMaxWidth="1281" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_OFF" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="350" Height="80" ImageLeft="307" ImageTop="230" ImageHeight="80" ImageWidth="350" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="1080" VisParentMaxWidth="1281" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_ON" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="350" Height="80" ImageLeft="307" ImageTop="230" ImageHeight="80" ImageWidth="350" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="1080" VisParentMaxWidth="1281" />
+
+	<Label CmdID="CMD_TITLE_WITH_MESSAGE" Left="30" Top="0" Width="210" Height="70" TextColor="0xffffff" FontName="Segoe UI" FontSize="20" FontBold="1" UsingScroll="1" ScrollDistance="3" ScrollInterval="500" VertAlignment="1" VertCenter="1" VisParentMinWidth="880" VisParentMaxWidth="1081" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_OFF" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="250" Height="80" ImageLeft="307" ImageTop="310" ImageHeight="80" ImageWidth="250" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="880" VisParentMaxWidth="1081" />
+	<Button CmdID="CMD_PLAYLIST_WINDOW_ON" AltCmdID="ID_CHAPTER_SEL_MENU" AutoVisible="1" Left="5" Width="250" Height="80" ImageLeft="307" ImageTop="310" ImageHeight="80" ImageWidth="250" LeftMargin="10" RightMargin="10" VertCenter="1" VisParentMinWidth="880" VisParentMaxWidth="1081" />
+	
+<!--Bottom Center-->
+	<Button CmdID="ID_PLAYBACK_5SEC_BACK" AltCmdID="ID_PROCESS_PREV" Left="-50" Width="40" Height="40" ImageLeft="147" ImageTop="390" HoriCenter="1" VertCenter="1" />
+	<Button CmdID="CMD_MEDIA_PLAY" Width="50" Height="50" ImageLeft="0" ImageTop="90" HoriCenter="1" VertCenter="1" />
+	<Button CmdID="CMD_MEDIA_PAUSE" Width="50" Height="50" ImageLeft="0" ImageTop="140" HoriCenter="1" VertCenter="1" />
+	<Button CmdID="ID_PLAYBACK_5SEC_FORW" AltCmdID="ID_PROCESS_NEXT" Left="50" Width="40" Height="40" ImageLeft="147" ImageTop="350" HoriCenter="1" VertCenter="1" />
+	<Button CmdID="ID_PLAYBACK_SHUFFLE" AutoVisible="-1" Left="-100" VertCenter="1" HoriCenter="1" Width="40" Height="40" ImageLeft="147" ImageTop="590" />
+	<Button CmdID="ID_PLAYBACK_SHUFFLE" AutoVisible="1" Left="-100" VertCenter="1" HoriCenter="1" Width="40" Height="40" ImageLeft="147" ImageTop="550" />
+	<Button CmdID="ID_PLAYBACK_REPEAT" AutoVisible="-1" Left="-150" Width="40" Height="40" ImageLeft="147" ImageTop="470" VertCenter="1" HoriCenter="1" />
+	<Button CmdID="ID_PLAYBACK_REPEAT" AutoVisible="1" Left="-150" Width="40" Height="40" ImageLeft="147" ImageTop="430" VertCenter="1" HoriCenter="1" />
+	<Button CmdID="ID_PLAYBACK_REPEAT" AutoVisible="2" Left="-150" Width="40" Height="40" ImageLeft="147" ImageTop="510" VertCenter="1" HoriCenter="1" />
+	<Button CmdID="ID_AUDIO_MUTE" AutoVisible="-1" Left="100" Width="40" Height="40" ImageLeft="147" ImageTop="270" HoriCenter="1" VertCenter="1" />
+	<Button CmdID="ID_AUDIO_MUTE" AutoVisible="1" Left="100" Width="40" Height="40" ImageLeft="147" ImageTop="310" HoriCenter="1" VertCenter="1" />
+	<Slider CmdID="CMD_VOLUME_CTRL" Left="170" Width="100" Height="20" VertCenter="1"
+		ImageLeft="35" ImageTop="0" ImageWidth="20" ImageHeight="22" LeftMargin="5" RightMargin="5"
+		BackImageLeft="55" BackImageTop="0" LeftMargin="5" RightMargin="5"
+		ThumbImageLeft="75" ThumbImageTop="0" ThumbWidth="16" ThumbHeight="22"
+		HoriCenter="1" Cursor="Hand" VisParentMinWidth="560"
+		/>
+	<Slider CmdID="CMD_VOLUME_CTRL" Left="160" Width="80" Height="20" VertCenter="1"
+		ImageLeft="35" ImageTop="0" ImageWidth="20" ImageHeight="22" LeftMargin="5" RightMargin="5"
+		BackImageLeft="55" BackImageTop="0" LeftMargin="5" RightMargin="5"
+		ThumbImageLeft="75" ThumbImageTop="0" ThumbWidth="16" ThumbHeight="22"
+		HoriCenter="1" Cursor="Hand" VisParentMinWidth="510" VisParentMaxWidth="559"
+		/>
+	<Slider CmdID="CMD_VOLUME_CTRL" Left="150" Width="60" Height="20" VertCenter="1"
+		ImageLeft="35" ImageTop="0" ImageWidth="20" ImageHeight="22" LeftMargin="5" RightMargin="5"
+		BackImageLeft="55" BackImageTop="0" LeftMargin="5" RightMargin="5"
+		ThumbImageLeft="75" ThumbImageTop="0" ThumbWidth="15" ThumbHeight="20"
+		HoriCenter="1" Cursor="Hand" VisParentMinWidth="460" VisParentMaxWidth="509"
+		/>
+
+<!--Bottom Right-->
+	<Button CmdID="ID_VIDEO_PS_SMPTE_2084" Left="-400" Cursor="HAND" Width="40" Height="40" AutoVisible="10" ImageLeft="147" ImageTop="790" ImageWidth="40" ImageHeight="40" VisParentMinWidth="1270"  VertCenter="1" DownFlag="1" >
+		<Label Text="HDR" ColorX="725" ColorY="537" OverColorX="725" OverColorY="537" PushColorX="98" PushColorY="30" Width="35" FontName="Segoe UI" FontSize="12" FontBold="1" AutoSize="1" VertAlignment="1" HoriAlignment="1" />
+	</Button>
+	<Button CmdID="CMD_VIDEO_OUT_HW_SW_MESSAGE" Cursor="HAND" AutoEnable="1" Left="-350" Width="40" Height="40" ImageLeft="147" ImageTop="790" ImageWidth="40" ImageHeight="40" VisParentMinWidth="1170" AutoVisible="1" VertCenter="1" DownFlag="1" >
+		<Label CmdID="CMD_VIDEO_OUT_HW_SW_MESSAGE" AutoEnable="1" ColorX="725" ColorY="537" OverColorX="725" OverColorY="537" PushColorX="98" PushColorY="10" Width="35" FontName="Segoe UI" FontSize="12" FontBold="1" AutoSize="1" AutoVisible="1" HoriAlignment="1" VertAlignment="1" DownFlag="1" />
+	</Button>
+	<Button CmdID="CMD_POPUPMENU_VIDEO_360VR" Left="-300" Width="40" Height="40" ImageLeft="147" ImageTop="750" ImageWidth="40" ImageHeight="40" VisParentMinWidth="1060" AutoVisible="1" VertCenter="1" >
+		<Label CmdID="CMD_AUDIO_IN_NUM_CHANNEL_MESSAGE" Text="360°" ColorX="725" ColorY="537" OverColorX="725" OverColorY="537" PushColorX="725" PushColorY="537" Width="35" FontName="Segoe UI" FontSize="12" FontBold="1" AutoSize="1" AutoVisible="1" HoriAlignment="1" VertAlignment="1" />
+	</Button>
+	
+	<Static State="CMD_OFF_MEDIA_PLAY" Left="-252.5" Width="45" Height="45" ImageLeft="0" ImageTop="220" ImageWidth="45" ImageHeight="45" LeftMargin="1" RightMargin="1" UsingRgn="0" VisParentMinWidth="960" VertCenter="1" />
+	<Button CmdID="CMD_POPUPMENU_AUDIO_CHANNEL" Left="-250" Width="40" Height="40" ImageLeft="147" ImageTop="750" ImageWidth="40" ImageHeight="40" VisParentMinWidth="960" AutoVisible="1" VertCenter="1" >
+		<Label CmdID="CMD_AUDIO_IN_NUM_CHANNEL_MESSAGE" Text="%s CH" ColorX="725" ColorY="537" OverColorX="725" OverColorY="537" PushColorX="725" PushColorY="537" Width="35" FontName="Segoe UI" FontSize="12" FontBold="1" AutoSize="1" AutoVisible="1" HoriAlignment="1" VertAlignment="1" />
+	</Button>
+
+	<Static State="CMD_OFF_MEDIA_PLAY" Left="-202.5" Width="45" Height="45" ImageLeft="0" ImageTop="220" ImageWidth="45" ImageHeight="45" LeftMargin="1" RightMargin="1" UsingRgn="0" VisParentMinWidth="860" VertCenter="1" />
+	<Button CmdID="ID_CONTROL_BOX_WINDOW" Left="-200" Width="40" Height="40" ImageLeft="147" ImageTop="710" VisParentMinWidth="860" VertCenter="1" />
+
+	<Static State="CMD_OFF_MEDIA_PLAY" Left="-152.5" Width="45" Height="45" ImageLeft="0" ImageTop="220" ImageWidth="45" ImageHeight="45" LeftMargin="1" RightMargin="1" UsingRgn="0" VisParentMinWidth="760" VertCenter="1" />
+	<Button CmdID="CMD_POPUP_USER_MENU" UserMenuName="AudioSubtitleMenu" Left="-150" Width="40" Height="40" ImageLeft="150" ImageTop="150" VisParentMinWidth="760"  VertCenter="1" />
+	<Button CmdID="CMD_FULL_WINDOW" Left="-100" Width="40" Height="40" ImageLeft="147" ImageTop="190" VertCenter="1" VisParentMinWidth="660" />
+	<Button Tooltip="$ID_OPEN_FILE" CmdID="CMD_POPUP_USER_MENU" UserMenuName="OpenMenu" Left="-50" Width="40" Height="40" ImageLeft="147" ImageTop="230" VertCenter="1" />
+	
+</Static>
+
+
+	
+<Static Align="Bottom" Height="20" ImageLeft="0" ImageTop="0" ImageWidth="35" ImageHeight="20" LeftMargin="1" RightMargin="1" UsingRgn="0" >
+	<Slider CmdID="CMD_TIMEBAR_CTRL" Top="0" Left="85" Width="-85" Height="20" VertCenter="1"
+		ImageLeft="35" ImageTop="0" ImageWidth="20" ImageHeight="22" LeftMargin="5" RightMargin="5" Cursor="Hand"
+		AltImageLeft="55" AltImageTop="0"
+		BackImageLeft="55" BackImageTop="0"
+		ThumbImageLeft="75" ThumbImageTop="0" ThumbWidth="16" ThumbHeight="22"
+		RepeatAImageLeft="35" RepeatAImageTop="50" RepeatBImageLeft="45" RepeatBImageTop="50" RepeatImageWidth="8" RepeatImageHeight="22"
+		BookmarkImageLeft="55" BookmarkImageTop="50" SeamlessImageLeft="50" SeamlessImageTop="40" />
+	<Label CmdID="CMD_CURRENTTIME_MESSAGE" Left="0" Width="85" Height="20" FontName="Segoe UI" FontSize="13" TextColor="0xffffff" HoriAlignment="1" VertAlignment="1" VertCenter="1" />
+	<Label CmdID="CMD_TOTALTIME_MESSAGE" Left="-85" Width="85" Height="20" FontName="Segoe UI" FontSize="13" TextColor="0xffffff" HoriAlignment="1" VertAlignment="1" VertCenter="1" />
+</Static>

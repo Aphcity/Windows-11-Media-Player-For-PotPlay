@@ -1,0 +1,198 @@
+#if<LocaleName==Italian>
+<StringTable Name='$CMD_MAIN_MENU' String='Menu principale' />
+<StringTable Name='$CMD_FULL_WINDOW' String='Attiva schermo intero' />
+<StringTable Name='$CMD_OFF_FULL_WINDOW' String='Disattiva schermo intero' />
+<StringTable Name='$ID_ETC_NEXTONTOP' String='In primo piano' />
+<StringTable Name='$ID_MINSCREEN' String='Riduci a icona' />
+<StringTable Name='$CMD_MAX_WINDOW' String='Ingrandisci' />
+<StringTable Name='$CMD_RESTORE_WINDOW' String='Ripristina giù' />
+<StringTable Name='$ID_APP_EXIT' String='Chiudi' />
+<StringTable Name='$ALWAYS_ON_TOP_CYCLE' String='Mostra sempre in primo piano' />
+<StringTable Name='$ALWAYS_ON_TOP' String='Mostra in primo piano durante riproduzione' />
+<StringTable Name='$ALWAYS_ON_TOP_PLAY' String='Mostra in primo piano durante riproduzione a schermo intero' />
+<StringTable Name='$ALWAYS_ON_TOP_FULL' String='Non mostrare mai in primo piano' />
+<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Pannello di controllo' />
+<StringTable Name='$ID_OPEN_FILE' String='Apri' />
+<StringTable Name='$ID_OPTION_WINDOW' String='Preferenze' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_OFF' String='Mostra playlist' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Nascondi playlist' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_CLOSE' String='Chiudi playlist' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_3D' String='Menu video 3D' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='Menu video 360°' />
+<StringTable Name='$CMD_MEDIA_CLOSE' String='Ferma' />
+<StringTable Name='$ID_PROCESS_PREV' String='Tasto Sx: indietro, Tasto Dx: riproduci precedente' />
+<StringTable Name='$ID_PROCESS_PREV_AUDIO' String='Tasto Sx: riproduci precedente, Tasto Dx: indietro' />
+<StringTable Name='$CMD_MEDIA_PLAY' String='Riproduci' />
+<StringTable Name='$CMD_MEDIA_PAUSE' String='Pausa' />
+<StringTable Name='$ID_PROCESS_NEXT' String='Tasto Sx: avanti, Tasto Dx: riproduci successivo' />
+<StringTable Name='$ID_PROCESS_NEXT_AUDIO' String='Tasto Sx: riproduci successivo, Tasto Dx: avanti' />
+<StringTable Name='$ID_AUDIO_MUTE' String='Attiva muto' />
+<StringTable Name='$ID_OFF_AUDIO_MUTE' String='Disattiva muto' />
+<StringTable Name='$VOLUME' String='Volume' />
+<StringTable Name='$CMD_POPUPMENU_STREAM_SELECT' String='Audio: lingua/sottotitoli, uscita audio digitale' />
+<StringTable Name='$CMD_POPUPMENU_AUDIO_CHANNEL' String='Altoparlanti: canali' />
+<StringTable Name='$CMD_CURRENTTIME_MESSAGE' String='Mostra tempo rimanente' />
+<StringTable Name='$CMD_LEFTTIME_MESSAGE' String='Mostra tempo trascorso' />
+<StringTable Name='$VIDEO_CODEC_MENU' String='Video: info riproduzione, accelerazione video dxva' />
+<StringTable Name='$AUDIO_CODEC_MENU' String='Audio: info riproduzione, uscita audio digitale' />
+<StringTable Name='$ID_PLAYINFO_WINDOW' String='Info riproduzione' />
+<StringTable Name='$DVD_POPUP_MENU' String='Menu disco' />
+<StringTable Name='$CMD_POPUPMENU_VOD_QUALITY' String='Qualità video' />
+<StringTable Name='$REPEAT_PLAYLIST' String='Ripeti playlist' />
+<StringTable Name='$REPEAT_FILE' String='Ripeti brano' />
+<StringTable Name='$REPEAT_OFF' String='Disattiva Ripeti' />
+<StringTable Name='$SHUFFLE_ON' String='Attiva riproduzione casuale' />
+<StringTable Name='$SHUFFLE_OFF' String='Disattiva riproduzione casuale' />
+<StringTable Name='$ID_PLAYLIST_WINDOW' String='Chiudi' />
+<StringTable Name='$PLAYLIST_WINDOW' String='Playlist' />
+<StringTable Name='$CMD_ATTACH_PLAYLIST_ON' String='Separa playlist' />
+<StringTable Name='$CMD_ATTACH_PLAYLIST_OFF' String='Unisci playlist' />
+<StringTable Name='$CMD_PLAYLIST_ADD' String='Aggiungi' />
+<StringTable Name='$ID_PLAYLIST_DEL' String='Rimuovi' />
+<StringTable Name='$ID_PLAYLIST_SORT' String='Ordina' />
+<StringTable Name='$ID_PLAYLIST_SAVE' String='Salva playlist' />
+<StringTable Name='$CMD_PLAYLIST_MENU_DEL' String='Elimina' />
+<StringTable Name='$CMD_POPUPMENU_PLAY_REPEAT2' String='Ripeti' />
+<StringTable Name='$ID_CONTROL_BOX_WINDOW_OFF' String='Chiudi' />
+<StringTable Name='$CONTROL_BOX' String='Pannello di controllo' />
+<StringTable Name='$AUDIO' String='Equalizzatore' />
+<StringTable Name='$VIDEO' String='Video' />
+<StringTable Name='$CAPTIONS' String='Sottotitoli' />
+<StringTable Name='$PLAYBACK' String='Riproduzione' />
+<StringTable Name='$RATIO' String='Formato' />
+<StringTable Name='$ID_AUDIO_EQULIZER_ON' String='Attiva' />
+<StringTable Name='$ID_AUDIO_EQULIZER_OFF' String='Disattiva' />
+<StringTable Name='$VIDEOSETTINGS' String='Impostazioni video' />
+<StringTable Name='$PLAYBACKSETTINGS' String='Impostazioni di riproduzione' />
+<StringTable Name='$PRESET' String='Preset' />
+<StringTable Name='$SHARPEN' String=' Nitidezza' />
+<StringTable Name='$DENOISE3D' String=' Denoise 3D' />
+<StringTable Name='$DEBLOCK' String=' Deblock' />
+<StringTable Name='$FONT' String='Font' />
+<StringTable Name='$SIZE' String='Dim.' />
+<StringTable Name='$SUBTITLE_SYNC' String='Sincr.' />
+<StringTable Name='$ID_CAPTION_OPEN' String='Apri' />
+<StringTable Name='$ID_CAPTION_VISIBLE' String='Nascondi' />
+<StringTable Name='$ID_CAPTION_SAVE' String='Salva' />
+<StringTable Name='$SEEK' String='Cerca' />
+<StringTable Name='$SPEED' String='Velocità' />
+<StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Più lento' />
+<StringTable Name='$ID_PLAY_SPEED_FASTER' String='Più veloce' />
+<StringTable Name='$REPEAT' String='Ripeti' />
+<StringTable Name='$CAMERA_1' String='Camera 1' />
+<StringTable Name='$CAMERA_2' String='Camera 2' />
+<StringTable Name='$CMD_CAPTURE1ST_PRIMARY_ON' String='Attiva su schermo principale' />
+<StringTable Name='$CMD_CAPTURE2ND_PRIMARY_OFF' String='Disattiva su schermo principale' />
+<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Mostra 1° Camera' />
+<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Mostra 2° Camera' />
+<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Nascondi 1° Camera' />
+<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Nascondi 2° Camera' />
+<StringTable Name='$CMD_CAPTURE_FINDWND' String='Trova finestra da catturare' />
+<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Impostazioni PIP (Picture in Picture)' />
+<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Adatta dimensione | Dimensione predefinita' />
+<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Cattura a schermo intero' />
+<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Cattura a schermo normale' />
+<StringTable Name='$BROADCAST_LIST' String='Elenco trasmissioni' />
+<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Chiudi' />
+<StringTable Name='$CHAT' String='Browser' />
+<StringTable Name='$ID_CHAT_WINDOW' String='Chiudi' />
+
+#else
+<StringTable Name='$CMD_MAIN_MENU' String='Main menu' />
+<StringTable Name='$CMD_FULL_WINDOW' String='Full screen On' />
+<StringTable Name='$CMD_OFF_FULL_WINDOW' String='Fullscreen Off' />
+<StringTable Name='$ID_ETC_NEXTONTOP' String='On top' />
+<StringTable Name='$ID_MINSCREEN' String='Minimize' />
+<StringTable Name='$CMD_MAX_WINDOW' String='Maximize' />
+<StringTable Name='$CMD_RESTORE_WINDOW' String='Restore' />
+<StringTable Name='$ID_APP_EXIT' String='Close' />
+<StringTable Name='$ALWAYS_ON_TOP_CYCLE' String='Always show on top' />
+<StringTable Name='$ALWAYS_ON_TOP' String='Show on top during playback' />
+<StringTable Name='$ALWAYS_ON_TOP_PLAY' String='Show in front while playing in full screen' />
+<StringTable Name='$ALWAYS_ON_TOP_FULL' String='Never show in the foreground' />
+<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Control panel' />
+<StringTable Name='$ID_OPEN_FILE' String='Open' />
+<StringTable Name='$ID_OPTION_WINDOW' String='Preferences' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_OFF' String='Show playlist' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Hide playlist' />
+<StringTable Name='$CMD_PLAYLIST_WINDOW_CLOSE' String='Close playlist' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_3D' String='3D video menu' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='360° video menu' />
+<StringTable Name='$CMD_MEDIA_CLOSE' String='Stop' />
+<StringTable Name='$ID_PROCESS_PREV' String='Left: back, Right: play previous' />
+<StringTable Name='$ID_PROCESS_PREV_AUDIO' String='Left: play previous, Right: back' />
+<StringTable Name='$CMD_MEDIA_PLAY' String='Play' />
+<StringTable Name='$CMD_MEDIA_PAUSE' String='Pause' />
+<StringTable Name='$ID_PROCESS_NEXT' String='Left: forward, Right: play next' />
+<StringTable Name='$ID_PROCESS_NEXT_AUDIO' String='Left: play next, Right: forward' />
+<StringTable Name='$ID_AUDIO_MUTE' String='Mute On' />
+<StringTable Name='$ID_OFF_AUDIO_MUTE' String='Mute Off' />
+<StringTable Name='$VOLUME' String='Volume' />
+<StringTable Name='$CMD_POPUPMENU_STREAM_SELECT' String='Audio: language/subtitles, digital audio output' />
+<StringTable Name='$CMD_POPUPMENU_AUDIO_CHANNEL' String='Speakers: channels' />
+<StringTable Name='$CMD_CURRENTTIME_MESSAGE' String='Show remaining time' />
+<StringTable Name='$CMD_LEFTTIME_MESSAGE' String='Show elapsed time' />
+<StringTable Name='$VIDEO_CODEC_MENU' String='Video: playback info, dxva video acceleration' />
+<StringTable Name='$AUDIO_CODEC_MENU' String='Audio: playback info, digital audio output' />
+<StringTable Name='$ID_PLAYINFO_WINDOW' String='Playback info' />
+<StringTable Name='$DVD_POPUP_MENU' String='Disc menu' />
+<StringTable Name='$CMD_POPUPMENU_VOD_QUALITY' String='Video quality' />
+<StringTable Name='$REPEAT_PLAYLIST' String='Repeat playlist' />
+<StringTable Name='$REPEAT_FILE' String='Repeat playback file' />
+<StringTable Name='$REPEAT_OFF' String='Repeat Off' />
+<StringTable Name='$SHUFFLE_ON' String='Shuffle On' />
+<StringTable Name='$SHUFFLE_OFF' String='Shuffle Off' />
+<StringTable Name='$ID_PLAYLIST_WINDOW' String='Close' />
+<StringTable Name='$PLAYLIST_WINDOW' String='Playlist' />
+<StringTable Name='$CMD_ATTACH_PLAYLIST_ON' String='Detach playlist' />
+<StringTable Name='$CMD_ATTACH_PLAYLIST_OFF' String='Attach playlist' />
+<StringTable Name='$CMD_PLAYLIST_ADD' String='Add' />
+<StringTable Name='$ID_PLAYLIST_DEL' String='Remove' />
+<StringTable Name='$ID_PLAYLIST_SORT' String='Sort' />
+<StringTable Name='$ID_PLAYLIST_SAVE' String='Save playlist' />
+<StringTable Name='$CMD_PLAYLIST_MENU_DEL' String='Delete' />
+<StringTable Name='$CMD_POPUPMENU_PLAY_REPEAT2' String='Repeat' />
+<StringTable Name='$ID_CONTROL_BOX_WINDOW_OFF' String='Close' />
+<StringTable Name='$CONTROL_BOX' String='Control Panel' />
+<StringTable Name='$AUDIO' String='Equalizer' />
+<StringTable Name='$VIDEO' String='Video' />
+<StringTable Name='$CAPTIONS' String='Subtitle' />
+<StringTable Name='$PLAYBACK' String='Playback' />
+<StringTable Name='$RATIO' String='Aspect Ratio' />
+<StringTable Name='$ID_AUDIO_EQULIZER_ON' String='On' />
+<StringTable Name='$ID_AUDIO_EQULIZER_OFF' String='Off' />
+<StringTable Name='$VIDEOSETTINGS' String='Video settings' />
+<StringTable Name='$PLAYBACKSETTINGS' String='Playback settings' />
+<StringTable Name='$PRESET' String='Preset' />
+<StringTable Name='$SHARPEN' String=' Sharpen' />
+<StringTable Name='$DENOISE3D' String=' Denoise 3D' />
+<StringTable Name='$DEBLOCK' String=' Deblock' />
+<StringTable Name='$FONT' String='Font' />
+<StringTable Name='$SIZE' String='Size' />
+<StringTable Name='$SUBTITLE_SYNC' String='Sync' />
+<StringTable Name='$ID_CAPTION_OPEN' String='Open' />
+<StringTable Name='$ID_CAPTION_VISIBLE' String='Hide/Show' />
+<StringTable Name='$ID_CAPTION_SAVE' String='Save' />
+<StringTable Name='$SEEK' String='Seek' />
+<StringTable Name='$SPEED' String='Speed' />
+<StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Slower' />
+<StringTable Name='$ID_PLAY_SPEED_FASTER' String='Faster' />
+<StringTable Name='$REPEAT' String='Repeat' />
+<StringTable Name='$CAMERA_1' String='Camera 1' />
+<StringTable Name='$CAMERA_2' String='Camera 2' />
+<StringTable Name='$CMD_CAPTURE1ST_PRIMARY_ON' String='Enable on the main screen' />
+<StringTable Name='$CMD_CAPTURE2ND_PRIMARY_OFF' String='Disable on the main screen' />
+<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Show first camera' />
+<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Show second camera' />
+<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Hide first camera' />
+<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Hide second camera' />
+<StringTable Name='$CMD_CAPTURE_FINDWND' String='Find window to capture' />
+<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Setting PIP (picture in picture)' />
+<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Optimize size | Restore size' />
+<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Capture in full screen size' />
+<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Capture in default size' />
+<StringTable Name='$BROADCAST_LIST' String='Broadcast list' />
+<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Close' />
+<StringTable Name='$CHAT' String='Browser' />
+<StringTable Name='$ID_CHAT_WINDOW' String='Close' />
+#endif

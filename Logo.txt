@@ -1,0 +1,87 @@
+		<Logo>
+			<Static Align='Client' State='CMD_DEFAULT_LOGO' InternalCmd='CMD_WEB_CONTROL' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' ImageLeft='694' ImageTop='0' ImageWidth='5' ImageHeight='10' HoriCenter='1' VertCenter='1' >			
+				<Image Image='Logo.png' Align='Client' ImageLeft='0' ImageTop='0' ImageWidth='661' ImageHeight='414' IsLogo='1' LogoType='0' />		
+			</Static>
+			<Static Align='Client' State='CMD_LOADING_LOGO' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' ImageLeft='694' ImageTop='0' ImageWidth='5' ImageHeight='10' HoriCenter='1' VertCenter='1' >
+				<Image Image='Loading.png' AlphaMode='1' CmdID='CMD_ANIMATION' AnimationTime='35' Width='54' Height='54' OffsetTop='0' ImageLeft='0' ImageTop='0' ImageWidth='54' ImageHeight='54' HoriCenter='1' VertCenter='1'>
+					<SubImage ImageLeft='0' ImageTop='0' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='54' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='108' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='162' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='216' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='270' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='324' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='378' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='432' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='486' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='540' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='594' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='648' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='702' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='756' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='810' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='864' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='918' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='972' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1026' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1080' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1134' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1188' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1242' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1296' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1350' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1404' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1458' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1512' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1566' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1620' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1674' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1728' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1836' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1890' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1944' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='1998' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2052' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2106' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2160' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2214' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2268' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2322' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2376' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2430' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2484' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2538' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2592' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2646' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2700' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2754' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2808' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2862' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2916' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='2970' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3024' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3078' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3132' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3186' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3240' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3294' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3348' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3402' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3456' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3510' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3564' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3618' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3672' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3726' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3780' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3834' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3888' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3942' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='3996' ImageWidth='54' ImageHeight='54' />
+					<SubImage ImageLeft='0' ImageTop='4050' ImageWidth='54' ImageHeight='54' />
+				</Image>
+			</Static>		
+		</Logo>
+
+		<CustomPopupMenuDef FrameX='650' FrameY='520' FrameW='56' FrameH='24' SelTextColorX='725' SelTextColorY='525' TextColorX='725' TextColorY='537' SelColorX='737' SelColorY='525' DimTextColorX='737' DimTextColorY='537' LineColorX='737' LineColorY='537' CheckX='760' CheckY='520' CheckW='15' CheckH='15' RadioX='790' RadioY='520' RadioW='15' RadioH='15' ScrollbarIndex='1' />
+		<CustomPopupMenuAlt FrameX='650' FrameY='560' FrameW='56' FrameH='24' SelTextColorX='725' SelTextColorY='565' TextColorX='725' TextColorY='577' SelColorX='737' SelColorY='565' DimTextColorX='725' DimTextColorY='577' LineColorX='737' LineColorY='577' CheckX='760' CheckY='560' CheckW='15' CheckH='15' RadioX='790' RadioY='560' RadioW='15' RadioH='15' ScrollbarIndex='1' />
