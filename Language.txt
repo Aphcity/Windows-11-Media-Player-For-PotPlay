@@ -5,7 +5,7 @@
 <StringTable Name='$ID_ETC_NEXTONTOP' String='In primo piano' />
 <StringTable Name='$ID_MINSCREEN' String='Riduci a icona' />
 <StringTable Name='$CMD_MAX_WINDOW' String='Ingrandisci' />
-<StringTable Name='$CMD_RESTORE_WINDOW' String='Ripristina giù' />
+<StringTable Name='$CMD_RESTORE_WINDOW' String='Ripristina giï¿½' />
 <StringTable Name='$ID_APP_EXIT' String='Chiudi' />
 <StringTable Name='$ALWAYS_ON_TOP_CYCLE' String='Mostra sempre in primo piano' />
 <StringTable Name='$ALWAYS_ON_TOP' String='Mostra in primo piano durante riproduzione' />
@@ -18,7 +18,7 @@
 <StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Nascondi playlist' />
 <StringTable Name='$CMD_PLAYLIST_WINDOW_CLOSE' String='Chiudi playlist' />
 <StringTable Name='$CMD_POPUPMENU_VIDEO_3D' String='Menu video 3D' />
-<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='Menu video 360°' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='Menu video 360ï¿½' />
 <StringTable Name='$CMD_MEDIA_CLOSE' String='Ferma' />
 <StringTable Name='$ID_PROCESS_PREV' String='Tasto Sx: indietro, Tasto Dx: riproduci precedente' />
 <StringTable Name='$ID_PROCESS_PREV_AUDIO' String='Tasto Sx: riproduci precedente, Tasto Dx: indietro' />
@@ -37,7 +37,7 @@
 <StringTable Name='$AUDIO_CODEC_MENU' String='Audio: info riproduzione, uscita audio digitale' />
 <StringTable Name='$ID_PLAYINFO_WINDOW' String='Info riproduzione' />
 <StringTable Name='$DVD_POPUP_MENU' String='Menu disco' />
-<StringTable Name='$CMD_POPUPMENU_VOD_QUALITY' String='Qualità video' />
+<StringTable Name='$CMD_POPUPMENU_VOD_QUALITY' String='Qualitï¿½ video' />
 <StringTable Name='$REPEAT_PLAYLIST' String='Ripeti playlist' />
 <StringTable Name='$REPEAT_FILE' String='Ripeti brano' />
 <StringTable Name='$REPEAT_OFF' String='Disattiva Ripeti' />
@@ -75,18 +75,18 @@
 <StringTable Name='$ID_CAPTION_VISIBLE' String='Nascondi' />
 <StringTable Name='$ID_CAPTION_SAVE' String='Salva' />
 <StringTable Name='$SEEK' String='Cerca' />
-<StringTable Name='$SPEED' String='Velocità' />
-<StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Più lento' />
-<StringTable Name='$ID_PLAY_SPEED_FASTER' String='Più veloce' />
+<StringTable Name='$SPEED' String='Velocitï¿½' />
+<StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Piï¿½ lento' />
+<StringTable Name='$ID_PLAY_SPEED_FASTER' String='Piï¿½ veloce' />
 <StringTable Name='$REPEAT' String='Ripeti' />
 <StringTable Name='$CAMERA_1' String='Camera 1' />
 <StringTable Name='$CAMERA_2' String='Camera 2' />
 <StringTable Name='$CMD_CAPTURE1ST_PRIMARY_ON' String='Attiva su schermo principale' />
 <StringTable Name='$CMD_CAPTURE2ND_PRIMARY_OFF' String='Disattiva su schermo principale' />
-<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Mostra 1° Camera' />
-<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Mostra 2° Camera' />
-<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Nascondi 1° Camera' />
-<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Nascondi 2° Camera' />
+<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Mostra 1ï¿½ Camera' />
+<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Mostra 2ï¿½ Camera' />
+<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Nascondi 1ï¿½ Camera' />
+<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Nascondi 2ï¿½ Camera' />
 <StringTable Name='$CMD_CAPTURE_FINDWND' String='Trova finestra da catturare' />
 <StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Impostazioni PIP (Picture in Picture)' />
 <StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Adatta dimensione | Dimensione predefinita' />
@@ -117,7 +117,7 @@
 <StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Hide playlist' />
 <StringTable Name='$CMD_PLAYLIST_WINDOW_CLOSE' String='Close playlist' />
 <StringTable Name='$CMD_POPUPMENU_VIDEO_3D' String='3D video menu' />
-<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='360° video menu' />
+<StringTable Name='$CMD_POPUPMENU_VIDEO_360VR' String='360ï¿½ video menu' />
 <StringTable Name='$CMD_MEDIA_CLOSE' String='Stop' />
 <StringTable Name='$ID_PROCESS_PREV' String='Left: back, Right: play previous' />
 <StringTable Name='$ID_PROCESS_PREV_AUDIO' String='Left: play previous, Right: back' />

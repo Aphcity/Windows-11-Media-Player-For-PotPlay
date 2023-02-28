@@ -12,9 +12,9 @@
 
 <Label Text='$CONTROL_SUBTITLES_FONT' Left='20' Top='195' Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
 <Button CmdID="ID_CAPTION_FONT_SELECT" Left="16" Top="232" Width="110" Height="25" ImageLeft="1" ImageTop="405" />
-<Label CmdID="CMD_CAPTION_FONT_MESSAGE" Left="27" Top="232" Width="79" Height="22" VertAlignment="1" FontName="Segoe UI" FontSize="14" ColorX="45" ColorY="3"  />
+<Label CmdID="CMD_CAPTION_FONT_MESSAGE" Left="27" Top="232" Width="79" Height="22" VertAlignment="1" FontName="Segoe UI" FontSize="14" ColorX="45" ColorY="3" />
 <Image Left="165" Top="232" Width="52" Height="26" ImageLeft="334" ImageTop="302" ImageWidth="52" ImageHeight="26" />
-<Label CmdID="CMD_CAPTION_SIZE_MESSAGE" Left="175" Top="232" Width="29" Height="26" FontName="Segoe UI" FontSize="14"  VertAlignment="1" TextColor="0xFFFFFF" />
+<Label CmdID="CMD_CAPTION_SIZE_MESSAGE" Left="175" Top="232" Width="29" Height="26" FontName="Segoe UI" FontSize="14" VertAlignment="1" TextColor="0xFFFFFF" />
 <Button CmdID="ID_CAPTION_INC_SIZE" Left="201" Top="232" Width="16" Height="13" ImageHeight="13" ImageLeft="387" ImageTop="302" />
 <Button CmdID="ID_CAPTION_DEC_SIZE" Left="201" Top="245" Width="16" Height="13" ImageHeight="13" ImageLeft="387" ImageTop="315" />
 
@@ -32,11 +32,11 @@
 <Button CmdID="ID_CAPTION_MOVE_DOWN" Left="76" Top="375" Width="27" Height="27" ImageLeft="85" ImageTop="430" />
 <Image Left="76" Top="375" Width="27" Height="27" ImageLeft="247" ImageTop="430" ImageWidth="27" ImageHeight="27" />
 
-<Button CmdID="ID_CAPTION_MOVE_RIGHT"  Left="106" Top="375" Width="27" Height="27" ImageLeft="85" ImageTop="430" />
-<Image Left="106" Top="375" Width="27" Height="27" ImageLeft="220" ImageTop="430" ImageWidth="27" ImageHeight="27"  />
+<Button CmdID="ID_CAPTION_MOVE_RIGHT" Left="106" Top="375" Width="27" Height="27" ImageLeft="85" ImageTop="430" />
+<Image Left="106" Top="375" Width="27" Height="27" ImageLeft="220" ImageTop="430" ImageWidth="27" ImageHeight="27" />
 
 <Button CmdID="ID_CAPTION_RESET_POS" Left="136" Top="375" Width="27" Height="27" ImageLeft="85" ImageTop="430" />
-<Image Left="136" Top="375" Width="27" Height="270" ImageLeft="274" ImageTop="430" ImageWidth="27" ImageHeight="27"  />
+<Image Left="136" Top="375" Width="27" Height="270" ImageLeft="274" ImageTop="430" ImageWidth="27" ImageHeight="27" />
 
 <Label Text='$CONTROL_SUBTITLES_SYNC' Left='20' Top='410' Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
 <Button CmdID="ID_CAPTION_SLOW_SYNC" Left="16" Top="447" Width="28" Height="25" ImageLeft="1" ImageTop="430" />

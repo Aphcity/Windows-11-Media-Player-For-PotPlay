@@ -1,38 +1,38 @@
-﻿    <Label Text="$VIDEOSETTINGS" Left="20" Top="14" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="20" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
-    
-    
-    <Label Text='$CONTROL_COLOR_CONTROLS' Left="20" Top="65" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+﻿<Label Text="$VIDEOSETTINGS" Left="20" Top="14" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="20" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
 
-    <Image Left="20" Top="110" Width="17" Height="17" ImageWidth="17" ImageHeight="17" ImageLeft="1" ImageTop="130" VertAlignment="1" />
-    <Slider CmdID="CMD_COLOR_OFFSET" Left="50" Top="110" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
-    <Button CmdID="CMD_COLOR_OFFSET_DEFAULT" Left="260" Top="105" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
-    
-    <Image Left="20" Top="140" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="83" />
-    <Slider CmdID="CMD_COLOR_GAIN" Left="50" Top="140" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
-    <Button CmdID="CMD_COLOR_GAIN_DEFAULT" Left="260" Top="135" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
 
-    <Image Left="20" Top="170" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="98" />
-    <Slider CmdID="CMD_COLOR_SAT" Left="50" Top="170" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
-    <Button CmdID="CMD_COLOR_SAT_DEFAULT" Left="260" Top="165" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+<Label Text='$CONTROL_COLOR_CONTROLS' Left="20" Top="65" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
 
-    <Image Left="20" Top="200" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="114" />
-    <Slider CmdID="CMD_COLOR_HUE" Left="50" Top="200" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
-    <Button CmdID="CMD_COLOR_HUE_DEFAULT" Left="260" Top="195" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
-    
-    
-    <Label Text='$CONTROL_VIDEO_EFFECTS' Left="20" Top="230" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />    
-    
-    <Button CmdID="ID_VIDEO_SHARPEN" AutoVisible="-1" Left="16" Top="275" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
-    <Button CmdID="ID_VIDEO_SHARPEN" AutoVisible="1" Left="16" Top="275" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
-    <Label Text="$SHARPEN" Left="37" Top="275" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
-    
-    <Button CmdID="ID_VIDEO_DENOISE_D" AutoVisible="-1" Left="16" Top="305" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
-    <Button CmdID="ID_VIDEO_DENOISE_D" AutoVisible="1" Left="16" Top="305" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
-    <Label Text="$DENOISE3D" Left="37" Top="305" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
-    
-    <Button CmdID="ID_VIDEO_POSTPROC" AutoVisible="-1" Left="16" Top="335" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
-    <Button CmdID="ID_VIDEO_POSTPROC" AutoVisible="1" Left="16" Top="335" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
-    <Label Text="$DEBLOCK" Left="37" Top="335" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
+<Image Left="20" Top="110" Width="17" Height="17" ImageWidth="17" ImageHeight="17" ImageLeft="1" ImageTop="130" VertAlignment="1" />
+<Slider CmdID="CMD_COLOR_OFFSET" Left="50" Top="110" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
+<Button CmdID="CMD_COLOR_OFFSET_DEFAULT" Left="260" Top="105" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+
+<Image Left="20" Top="140" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="83" />
+<Slider CmdID="CMD_COLOR_GAIN" Left="50" Top="140" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
+<Button CmdID="CMD_COLOR_GAIN_DEFAULT" Left="260" Top="135" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+
+<Image Left="20" Top="170" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="98" />
+<Slider CmdID="CMD_COLOR_SAT" Left="50" Top="170" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
+<Button CmdID="CMD_COLOR_SAT_DEFAULT" Left="260" Top="165" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+
+<Image Left="20" Top="200" Width="20" Height="15" ImageWidth="15" ImageHeight="15" ImageLeft="0" ImageTop="114" />
+<Slider CmdID="CMD_COLOR_HUE" Left="50" Top="200" Width="206" Height="16" ImageWidth="14" ImageHeight="16" ImageLeft="63" ImageTop="22" BackImageLeft="49" BackImageTop="22" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" LeftMargin="4" RightMargin="4" />
+<Button CmdID="CMD_COLOR_HUE_DEFAULT" Left="260" Top="195" Width="31" Height="25" ImageLeft="511" ImageTop="505" />
+
+
+<Label Text='$CONTROL_VIDEO_EFFECTS' Left="20" Top="230" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="15" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+
+<Button CmdID="ID_VIDEO_SHARPEN" AutoVisible="-1" Left="16" Top="275" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
+<Button CmdID="ID_VIDEO_SHARPEN" AutoVisible="1" Left="16" Top="275" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
+<Label Text="$SHARPEN" Left="37" Top="275" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
+
+<Button CmdID="ID_VIDEO_DENOISE_D" AutoVisible="-1" Left="16" Top="305" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
+<Button CmdID="ID_VIDEO_DENOISE_D" AutoVisible="1" Left="16" Top="305" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
+<Label Text="$DENOISE3D" Left="37" Top="305" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
+
+<Button CmdID="ID_VIDEO_POSTPROC" AutoVisible="-1" Left="16" Top="335" Width="18" Height="18" ImageLeft="20" ImageTop="96" />
+<Button CmdID="ID_VIDEO_POSTPROC" AutoVisible="1" Left="16" Top="335" Width="18" Height="18" ImageLeft="20" ImageTop="130" />
+<Label Text="$DEBLOCK" Left="37" Top="335" Width="84" Height="18" FontName="Segoe UI" FontBold="1" FontSize="13" TextColor="0xffffff" />
     
 
     

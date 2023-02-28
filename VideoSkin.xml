@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Skin Version="1.0" MinorVersion="1000" >
+<Skin Version="1.0" MinorVersion="1000">
 
 #include<Language.txt>
 #include<Language.xml>
@@ -8,104 +8,104 @@
 	<ExcludeColorThemeArea Name="Main.png" Left="0" Top="486" Width="1920" Height="1080" WidthLimit="890" HeightLimit="330.625" />
 	<ExcludeColorThemeArea Name="Window.png" Left="130" Top="30" Width="80" Height="61" />
 
-<MainSkinAreaOscFrame Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625" >
+	<MainSkinAreaOscFrame Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625">
 		#include<Logo.txt>
 		#include<menu.xml>
 		<Control>
 			<Static Image='Playlist.png' Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='1' ConstSize='350'>
-				<Static Align='Bottom' Height='40' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >					
+				<Static Align='Bottom' Height='40' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >
 
 					<Layout Align='Right' Width='5'/>
-						<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' />
+					<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' />
 					<Layout Align='Right' Width='5'/>
-						<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
+					<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
 					<Layout Align='Right' Width='5'/>
-						<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />						
-						
-					
+					<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />
+
+
 					<Layout Align='Left' Width='5'/>
-						<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
+					<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
 					<Layout Align='Left' Width='5'/>
-						<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left'  Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
+					<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
 					<Layout Align='Left' Width='5'/>
 					<Button Tooltip='$CMD_PLAYLIST_DOWN' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='32' ImageLeft='472' ImageTop='287' ImageWidth='32' ImageHeight='32' />
-					<Layout Align='Left' Width='5'/>	
-						<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />	
+					<Layout Align='Left' Width='5'/>
+					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />
 					<Layout Align='Left' Width='5'/>
 					<Layout Align='Bottom' Width='10'/>
 
 				</Static>
 
 				#if<SkinStyle!=SettingsOn>
-					<Static Align='Left' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='5' ImageHeight='30' TopMargin='1' BottomMargin='1' >
-						<Button Image="ControlPanel.png" Tooltip='$CMD_PLAYLIST_TAB_SELECT' Align='Top' State='CMD_PLAYLIST_ATTACH' CmdID='CMD_PLAYLIST_TAB_SELECT' AltCmdID='CMD_ATTACH_PLAYLIST' Width='48' Height='48' ImageLeft='632' ImageTop='240' />
-						<Button Image="ControlPanel.png" Tooltip='$CMD_CHAT_TAB_SELECT' Align='Top' State='CMD_CHAT_ATTACH' CmdID='CMD_CHAT_TAB_SELECT' AltCmdID='CMD_ATTACH_CHAT' Width='48' Height='48' ImageLeft='632' ImageTop='288' />
-						<Static Align='Bottom' AlphaMode='1' Height='48' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='3' ImageHeight='3' LeftMargin='1' RightMargin='1'>
-							<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='CMD_SET_SKIN_STYLE' SkinStyle='SettingsOn' AutoVisible="-1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
-							<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='ID_CONTROL_BOX_WINDOW' AutoVisible="1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
-						</Static>
+				<Static Align='Left' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='5' ImageHeight='30' TopMargin='1' BottomMargin='1' >
+					<Button Image="ControlPanel.png" Tooltip='$CMD_PLAYLIST_TAB_SELECT' Align='Top' State='CMD_PLAYLIST_ATTACH' CmdID='CMD_PLAYLIST_TAB_SELECT' AltCmdID='CMD_ATTACH_PLAYLIST' Width='48' Height='48' ImageLeft='632' ImageTop='240' />
+					<Button Image="ControlPanel.png" Tooltip='$CMD_CHAT_TAB_SELECT' Align='Top' State='CMD_CHAT_ATTACH' CmdID='CMD_CHAT_TAB_SELECT' AltCmdID='CMD_ATTACH_CHAT' Width='48' Height='48' ImageLeft='632' ImageTop='288' />
+					<Static Align='Bottom' AlphaMode='1' Height='48' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='3' ImageHeight='3' LeftMargin='1' RightMargin='1'>
+						<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='CMD_SET_SKIN_STYLE' SkinStyle='SettingsOn' AutoVisible="-1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
+						<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='ID_CONTROL_BOX_WINDOW' AutoVisible="1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
 					</Static>
+				</Static>
 				#endif
 				
 
-			</Static>	
+			</Static>
 
 
-			<Static Align="Client" Contain="CMD_VIDEO_WINDOW"  />
+			<Static Align="Client" Contain="CMD_VIDEO_WINDOW" />
 
 		</Control>
 
-</MainSkinAreaOscFrame>
+	</MainSkinAreaOscFrame>
 
-<MainSkinArea Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625" >
+	<MainSkinArea Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625">
 		#include<Logo.txt>
 		#include<menu.xml>
 		<Control>
 			#include<Top.xml>			
 			#include<Bottom.xml>
 
-			
+
 			<Static Image='Playlist.png' Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='1' ConstSize='350'>
-				<Static Align='Bottom' Height='80' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >					
-					
-					
+				<Static Align='Bottom' Height='80' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >
+
+
 					<Static Align='Top' Height='35' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >
-						<Image Align="Client" Width="140" ImageLeft='170' ImageTop='60' ImageWidth='100' Height="30" ImageHeight='32' LeftMargin='13' TopMargin='13' RightMargin='13' BottomMargin='13' VertCenter='1' OffsetLeft='5' OffsetWidth='-10' OffsetTop="5" OffsetHeight="-5"  >	
+						<Image Align="Client" Width="140" ImageLeft='170' ImageTop='60' ImageWidth='100' Height="30" ImageHeight='32' LeftMargin='13' TopMargin='13' RightMargin='13' BottomMargin='13' VertCenter='1' OffsetLeft='5' OffsetWidth='-10' OffsetTop="5" OffsetHeight="-5">
 							<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='5' WidthOffset='-14' TopOffset='5' HeightOffset='-10' />
 						</Image>
 					</Static>
 					<Static Align='bottom' Height='35' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >
 						<Layout Align='Right' Width='5'/>
-							<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' VertCenter="1" />
+						<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' VertCenter="1" />
 						<Layout Align='Right' Width='5'/>
-							<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
+						<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
 						<Layout Align='Right' Width='5'/>
-							<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />						
-							
+						<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />
+
 						<Layout Align='Left' Width='5'/>
-							<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
+						<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
 						<Layout Align='Left' Width='5'/>
-							<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left'  Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
+						<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
 						<Layout Align='Left' Width='5'/>
 						<Button Tooltip='$CMD_PLAYLIST_DOWN' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='32' ImageLeft='472' ImageTop='287' ImageWidth='32' ImageHeight='32' />
-						<Layout Align='Left' Width='5'/>	
-							<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />	
+						<Layout Align='Left' Width='5'/>
+						<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />
 						<Layout Align='Left' Width='5'/>
 					</Static>
 
-				
+
 				</Static>
 				
 
 				#if<SkinStyle!=SettingsOn>
-					<Static Align='Left' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='5' ImageHeight='30' TopMargin='1' BottomMargin='1' >
-						<Button Image="ControlPanel.png" Tooltip='$CMD_PLAYLIST_TAB_SELECT' Align='Top' State='CMD_PLAYLIST_ATTACH' CmdID='CMD_PLAYLIST_TAB_SELECT' AltCmdID='CMD_ATTACH_PLAYLIST' Width='48' Height='48' ImageLeft='632' ImageTop='240' />
-						<Button Image="ControlPanel.png" Tooltip='$CMD_CHAT_TAB_SELECT' Align='Top' State='CMD_CHAT_ATTACH' CmdID='CMD_CHAT_TAB_SELECT' AltCmdID='CMD_ATTACH_CHAT' Width='48' Height='48' ImageLeft='632' ImageTop='288' />
-						<Static Align='Bottom' AlphaMode='1' Height='48' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='3' ImageHeight='3' LeftMargin='1' RightMargin='1'>
-							<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='CMD_SET_SKIN_STYLE' SkinStyle='SettingsOn' AutoVisible="-1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
-							<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='ID_CONTROL_BOX_WINDOW' AutoVisible="1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
-						</Static>
+				<Static Align='Left' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='5' ImageHeight='30' TopMargin='1' BottomMargin='1' >
+					<Button Image="ControlPanel.png" Tooltip='$CMD_PLAYLIST_TAB_SELECT' Align='Top' State='CMD_PLAYLIST_ATTACH' CmdID='CMD_PLAYLIST_TAB_SELECT' AltCmdID='CMD_ATTACH_PLAYLIST' Width='48' Height='48' ImageLeft='632' ImageTop='240' />
+					<Button Image="ControlPanel.png" Tooltip='$CMD_CHAT_TAB_SELECT' Align='Top' State='CMD_CHAT_ATTACH' CmdID='CMD_CHAT_TAB_SELECT' AltCmdID='CMD_ATTACH_CHAT' Width='48' Height='48' ImageLeft='632' ImageTop='288' />
+					<Static Align='Bottom' AlphaMode='1' Height='48' Width='48' ImageLeft='1' ImageTop='1' ImageWidth='3' ImageHeight='3' LeftMargin='1' RightMargin='1'>
+						<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='CMD_SET_SKIN_STYLE' SkinStyle='SettingsOn' AutoVisible="-1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
+						<Button Tooltip='$ID_CONTROL_BOX_WINDOW' AltCmdID="ID_CONTROL_BOX_WINDOW" CmdID='ID_CONTROL_BOX_WINDOW' AutoVisible="1" Width='48' Height='48' ImageLeft='473' ImageTop='171' />
 					</Static>
+				</Static>
 				#endif
 				
 			</Static>
@@ -118,8 +118,8 @@
 			<Static Align="Client" Contain="CMD_VIDEO_WINDOW" />
 		</Control>
 
-</MainSkinArea>
-<MainSkinAreaOscInside Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625" >
+	</MainSkinArea>
+	<MainSkinAreaOscInside Image="Main.png" AlphaMode="1" UseWindowFrame="0" WidthLimit="890" HeightLimit="330.625">
 		#include<Logo.txt>
 		#include<menu.xml>
 		<Control>
@@ -135,9 +135,9 @@
 			<Static Align="Client" Contain="CMD_VIDEO_WINDOW" />
 		</Control>
 
-</MainSkinAreaOscInside>
+	</MainSkinAreaOscInside>
 
 #include<Playlist.xml>
 #include<ControlPanel.xml>
 #include<common.xml>
-</Skin>
+	</Skin>

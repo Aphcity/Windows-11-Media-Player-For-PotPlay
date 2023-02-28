@@ -1,55 +1,55 @@
-﻿	<Label Text='$CONTROL_EQUALIZER' Left="20" Top="14" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="20" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
-	<Label Text="$ID_AUDIO_EQULIZER_OFF" CmdID="ID_AUDIO_EQULIZER" AutoVisible="-1" Left="64" Top="65" Width="56" Height="22" FontName="Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xffffff" />
-	<Label Text="$ID_AUDIO_EQULIZER_ON" CmdID="ID_AUDIO_EQULIZER" AutoVisible="1" Left="64" Top="65" Width="56" Height="22" FontName="120Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xffffff" />
-	<Button CmdID="ID_AUDIO_EQULIZER" AutoVisible="-1" Left="16" Top="65" Width="42" Height="18" ImageLeft="144" ImageTop="222" />
-	<Button CmdID="ID_AUDIO_EQULIZER" AutoVisible="1" Left="16" Top="65" Width="42" Height="18" ImageLeft="1" ImageTop="223" />
-	
-	<Button CmdID="CMD_POPUPMENU_AUDIO_EQULIZER" AltCmdID="ID_EQULIZER_RESET" DownFlag="1" Left="100" Top="65" Width="110" Height="25" ImageLeft="1" ImageTop="280" >
-		<Label CmdID="CMD_EQ_PRESET_MESSAGE" Width="110" Height="25" FontName="Segoe UI" FontSize="12" TextColor="0xFFFFFF" VertAlignment="1" OffsetLeft="7" OffsetWidth="-30" TopOffset="10" />
-	</Button>
-	
-	<Button CmdID="CMD_POPUPMENU_EQULIZER_PRESET" AltCmdID="ID_EQULIZER_RESET" Left="215" Top="65" Width="66" Height="25" ImageLeft="1" ImageTop="305" >
-		<Label Text="$PRESET" Width="68" Height="25" FontName="Segoe UI" FontSize="13"  TextColor="0xFFFFFF" HoriAlignment="1" VertAlignment="1" />
-	</Button>
-	
-	<!--EQ dB-->
-	<!--<Static Top='130' Left='-70' Width='50' Height='120' ImageLeft='250' ImageTop='30' ImageWidth='50' ImageHeight='120' >
+﻿<Label Text='$CONTROL_EQUALIZER' Left="20" Top="14" Width="435" Height="35" ImageWidth="250" ImageHeight="20" FontName="Segoe UI" FontSize="20" FontBold="1" TextColor="0xFFFFFF" VertAlignment="1" />
+<Label Text="$ID_AUDIO_EQULIZER_OFF" CmdID="ID_AUDIO_EQULIZER" AutoVisible="-1" Left="64" Top="65" Width="56" Height="22" FontName="Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xffffff" />
+<Label Text="$ID_AUDIO_EQULIZER_ON" CmdID="ID_AUDIO_EQULIZER" AutoVisible="1" Left="64" Top="65" Width="56" Height="22" FontName="120Segoe UI" FontSize="14" FontBold="1" VertAlignment="1" TextColor="0xffffff" />
+<Button CmdID="ID_AUDIO_EQULIZER" AutoVisible="-1" Left="16" Top="65" Width="42" Height="18" ImageLeft="144" ImageTop="222" />
+<Button CmdID="ID_AUDIO_EQULIZER" AutoVisible="1" Left="16" Top="65" Width="42" Height="18" ImageLeft="1" ImageTop="223" />
+
+<Button CmdID="CMD_POPUPMENU_AUDIO_EQULIZER" AltCmdID="ID_EQULIZER_RESET" DownFlag="1" Left="100" Top="65" Width="110" Height="25" ImageLeft="1" ImageTop="280">
+	<Label CmdID="CMD_EQ_PRESET_MESSAGE" Width="110" Height="25" FontName="Segoe UI" FontSize="12" TextColor="0xFFFFFF" VertAlignment="1" OffsetLeft="7" OffsetWidth="-30" TopOffset="10" />
+</Button>
+
+<Button CmdID="CMD_POPUPMENU_EQULIZER_PRESET" AltCmdID="ID_EQULIZER_RESET" Left="215" Top="65" Width="66" Height="25" ImageLeft="1" ImageTop="305">
+	<Label Text="$PRESET" Width="68" Height="25" FontName="Segoe UI" FontSize="13" TextColor="0xFFFFFF" HoriAlignment="1" VertAlignment="1" />
+</Button>
+
+<!--EQ dB-->
+<!--<Static Top='130' Left='-70' Width='50' Height='120' ImageLeft='250' ImageTop='30' ImageWidth='50' ImageHeight='120' >
 		<Label Text="+12 dB" Top='-55' Width="40" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertCenter="1" FontBold="1" />
 		<Label Text="+6 dB" Top='-26.25' Width="40" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertCenter="1" FontBold="1" />
 		<Label Text="0 dB" Width="40" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertCenter='1' FontBold="1" />
 		<Label Text="-6 dB" Top='26.25' Width="40" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertCenter="1" FontBold="1" />
 		<Label Text="-12 dB" Top='52.5' Width="40" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertCenter="1" FontBold="1" />
 	</Static>-->
-    
-		<Slider CmdID="CMD_EQULIZER_0" Vert="1"  Left="20" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="60"  Left="20" Top="260" Width="16" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_1" Vert="1"  Left="45" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="170"  Left="42" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_2" Vert="1"  Left="70" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="310"  Left="67" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_3" Vert="1"  Left="95" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="600"  Left="92" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_4" Vert="1"  Left="120" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="1K"  Left="117" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_5" Vert="1"  Left="145" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="3K"  Left="142" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_6" Vert="1"  Left="170" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="6K"  Left="167" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_7" Vert="1"  Left="195" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="12K"  Left="192" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_8" Vert="1"  Left="220" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="14K"  Left="217" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_EQULIZER_9" Vert="1"  Left="245" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="16K"  Left="242" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
-		
-		<Slider CmdID="CMD_VOLUME_CTRL" Vert="1"  Left="270" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
-	<Label Text="VOL"  Left="267" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_0" Vert="1" Left="20" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="60" Left="20" Top="260" Width="16" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_1" Vert="1" Left="45" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="170" Left="42" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_2" Vert="1" Left="70" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="310" Left="67" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_3" Vert="1" Left="95" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="600" Left="92" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_4" Vert="1" Left="120" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="1K" Left="117" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_5" Vert="1" Left="145" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="3K" Left="142" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_6" Vert="1" Left="170" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="6K" Left="167" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_7" Vert="1" Left="195" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="12K" Left="192" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_8" Vert="1" Left="220" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="14K" Left="217" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_EQULIZER_9" Vert="1" Left="245" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="16K" Left="242" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />
+
+<Slider CmdID="CMD_VOLUME_CTRL" Vert="1" Left="270" Top="130" Width="16" Height="120" ImageWidth="16" ImageHeight="120" ImageLeft="567" ImageTop="105" BackImageLeft="551" BackImageTop="105" ThumbImageLeft="1" ThumbImageTop="22" ThumbWidth="16" ThumbHeight="16" TopMargin="6" BottomMargin="6" />
+<Label Text="VOL" Left="267" Top="260" Width="22" Height="11" FontName="Segoe UI" FontSize="11" TextColor="0xFFFFFF" VertAlignment="1" HoriAlignment="1" FontBold="1" />

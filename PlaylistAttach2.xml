@@ -1,21 +1,21 @@
 <!-- This code is needed so merging with the playlist could work -->
 
-	<!-- Left margin to keep consistency -->
-		<Static Align='Left' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
-		
-	<!-- Right margin needed to been able to resize the window when the playlist is attached -->
-		<Static Align='Right' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
-		
-	<!-- Playlist container -->
-		<Static Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='5' ConstSize='350' >
-			<Static Align="Top" Height="30" ImageLeft="1" ImageTop="1" ImageWidth="15" ImageHeight="30" AltImageLeft="1" AltImageTop="1" LeftMargin="1" RightMargin="1" IsTitleBar="1" UsingRgn="1" >
-				<Label CmdID="$PLAYLIST_TITLE" ColorX='725' ColorY='537' OverColorX='725' OverColorY='537' PushColorX='725' PushColorY='537' Width='35' FontName='Segoe UI' FontSize='12' FontBold='1' AutoSize='1' AutoVisible='1' VertAlignment='1' />
-				<Button Tooltip="$CMD_PLAYLIST_WINDOW_CLOSE" CmdID="CMD_PLAYLIST_WINDOW_CLOSE" Left="-45" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="30" />
-			</Static>
-		</Static>
-		
-	<!-- Playlist Splitter, MinSplitterSizeLT = min video size, MinSplitterSizeRB = min playlist size -->
-		<Static Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='5' IsSplitter='1' MinSplitterSizeLT='250' MinSplitterSizeRB='350' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
-		<!--	<Button Tooltip="$CMD_PLAYLIST_WINDOW_CLOSE" CmdID="CMD_PLAYLIST_WINDOW_CLOSE" Width="5" Height="55" ImageLeft="753" VertCenter="1" GetOffset="1" VisParentMinHeight="30" />
+<!-- Left margin to keep consistency -->
+<Static Align='Left' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
+
+<!-- Right margin needed to been able to resize the window when the playlist is attached -->
+<Static Align='Right' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
+
+<!-- Playlist container -->
+<Static Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='5' ConstSize='350' >
+	<Static Align="Top" Height="30" ImageLeft="1" ImageTop="1" ImageWidth="15" ImageHeight="30" AltImageLeft="1" AltImageTop="1" LeftMargin="1" RightMargin="1" IsTitleBar="1" UsingRgn="1">
+		<Label CmdID="$PLAYLIST_TITLE" ColorX='725' ColorY='537' OverColorX='725' OverColorY='537' PushColorX='725' PushColorY='537' Width='35' FontName='Segoe UI' FontSize='12' FontBold='1' AutoSize='1' AutoVisible='1' VertAlignment='1' />
+		<Button Tooltip="$CMD_PLAYLIST_WINDOW_CLOSE" CmdID="CMD_PLAYLIST_WINDOW_CLOSE" Left="-45" Top="0" Width="45" Height="30" ImageLeft="258" ImageTop="30" />
+	</Static>
+</Static>
+
+<!-- Playlist Splitter, MinSplitterSizeLT = min video size, MinSplitterSizeRB = min playlist size -->
+<Static Align='Left' Contain='CMD_CHAT_PLAYLIST_BROADCAST_TOGGLE' Width='5' IsSplitter='1' MinSplitterSizeLT='250' MinSplitterSizeRB='350' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' />
+<!--	<Button Tooltip="$CMD_PLAYLIST_WINDOW_CLOSE" CmdID="CMD_PLAYLIST_WINDOW_CLOSE" Width="5" Height="55" ImageLeft="753" VertCenter="1" GetOffset="1" VisParentMinHeight="30" />
 		</Static> -->
 

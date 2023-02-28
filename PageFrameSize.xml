@@ -33,7 +33,7 @@
 <Button Tooltip='$ID_PANSCAN_MOVEDOWN' CmdID='ID_PANSCAN_MOVEDOWN' Left='80' Top='190' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
 <Image Left="80" Top="190" Width="27" Height="27" ImageLeft="247" ImageTop="430" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_MOVERIGHT' CmdID='ID_PANSCAN_MOVERIGHT' Left='112' Top='190' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
-<Image Left="112" Top="190" Width="27" Height="27" ImageLeft="220" ImageTop="430" ImageWidth="27" ImageHeight="27"  />
+<Image Left="112" Top="190" Width="27" Height="27" ImageLeft="220" ImageTop="430" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_RESET_POS' CmdID='ID_PANSCAN_RESET' Left='144' Top='190' Width="31" Height="25" ImageLeft="511" ImageTop="505" />
 
 
@@ -41,13 +41,13 @@
 <Label Text='$CONTROL_VIDEO_SIZE' Height="25" Left='16' Top='230' VertAlignment="1" FontName="Segoe UI" FontSize="14" FontBold="1" TextColor="0xffffff" />
 
 <Button Tooltip='$ID_PANSCAN_INCHEIGHT' CmdID="ID_PANSCAN_INCHEIGHT" Left='16' Top='260' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
-<Image Left="16" Top="260" Width="27" Height="27" ImageLeft="166" ImageTop="457" ImageWidth="27" ImageHeight="27"  />
+<Image Left="16" Top="260" Width="27" Height="27" ImageLeft="166" ImageTop="457" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_DECHEIGHT' CmdID='ID_PANSCAN_DECHEIGHT' Left='48' Top='260' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
-<Image Left="48" Top="260" Width="27" Height="27" ImageLeft="193" ImageTop="457" ImageWidth="27" ImageHeight="27"  />
+<Image Left="48" Top="260" Width="27" Height="27" ImageLeft="193" ImageTop="457" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_INCWIDTH' CmdID='ID_PANSCAN_INCWIDTH' Left='80' Top='260' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
-<Image Left="80" Top="260" Width="27" Height="27" ImageLeft="220" ImageTop="457" ImageWidth="27" ImageHeight="27"  />
+<Image Left="80" Top="260" Width="27" Height="27" ImageLeft="220" ImageTop="457" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_DECWIDTH' CmdID='ID_PANSCAN_DECWIDTH' Left='112' Top='260' Width='27' Height='27' ImageLeft='85' ImageTop='430' />
-<Image Left="112" Top="260" Width="27" Height="27" ImageLeft="247" ImageTop="457" ImageWidth="27" ImageHeight="27"  />
+<Image Left="112" Top="260" Width="27" Height="27" ImageLeft="247" ImageTop="457" ImageWidth="27" ImageHeight="27" />
 <Button Tooltip='$ID_PANSCAN_RESET_SIZE' CmdID='ID_PANSCAN_RESET' Left='144' Top='260' Width="31" Height="25" ImageLeft="511" ImageTop="505" />
 
 

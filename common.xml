@@ -1,316 +1,295 @@
-﻿	<ScrollBarPlaylist Name='ScrollBarPL.bmp' SizingGripperX='83' SizingGripperY='83' Length='17' Width='17' >
-		<HorzNormal>
-			<ArrowLeft Left='0' Top='0' Width='17' Height='16' />
-			<ArrowRight Left='1' Top='22' Width='17' Height='16' />
-			<PageLeft Left='3' Top='83' Width='3' Height='16' />
-			<PageRight Left='4' Top='83' Width='3' Height='16' />
-			
-			<ThumbLeft Left='48' Top='0' Width='4' Height='16' />
-			<ThumbMiddleLeft Left='52' Top='0' Width='1' Height='16' />
-			<ThumbMiddle Left='53' Top='0' Width='9' Height='16' />
-			<ThumbMiddleRight Left='62' Top='0' Width='1' Height='16' />
-			<ThumbRight Left='63' Top='0' Width='4' Height='16' />
-		</HorzNormal>
-		
-		<HorzActive>
-			<ArrowLeft Left='22' Top='0' Width='17' Height='16' />
-			<ArrowRight Left='23' Top='22' Width='17' Height='16' />
-			<PageLeft Left='3' Top='83' Width='3' Height='16' />
-			<PageRight Left='4' Top='83' Width='3' Height='16' />
-			
-			<ThumbLeft Left='48' Top='22' Width='4' Height='16' />
-			<ThumbMiddleLeft Left='52' Top='22' Width='1' Height='16' />
-			<ThumbMiddle Left='53' Top='22' Width='9' Height='16' />
-			<ThumbMiddleRight Left='62' Top='22' Width='1' Height='16' />
-			<ThumbRight Left='63' Top='22' Width='4' Height='16' />
-		</HorzActive>
-		
-		<VertNormal>
-			<ArrowUp Left='72' Top='0' Width='17' Height='17' />
-			<ArrowDown Left='72' Top='23' Width='17' Height='17' />
-			<PageUp Left='0' Top='112' Width='17' Height='2' />
-			<PageDown Left='0' Top='112' Width='17' Height='2' />
-			
-			<ThumbUp Left='126' Top='0' Width='17' Height='5' />
-			<ThumbMiddleUp Left='126' Top='5' Width='17' Height='1' />
-			<ThumbMiddle Left='126' Top='6' Width='17' Height='5' />
-			<ThumbMiddleDown Left='126' Top='11' Width='17' Height='1' />
-			<ThumbDown Left='126' Top='12' Width='17' Height='5' />
-		</VertNormal>
+﻿<ScrollBarPlaylist Name='ScrollBarPL.bmp' SizingGripperX='83' SizingGripperY='83' Length='17' Width='17' >
+	<HorzNormal>
+		<ArrowLeft Left='0' Top='0' Width='17' Height='16' />
+		<ArrowRight Left='1' Top='22' Width='17' Height='16' />
+		<PageLeft Left='3' Top='83' Width='3' Height='16' />
+		<PageRight Left='4' Top='83' Width='3' Height='16' />
 
-		<VertActive>
-			<ArrowUp Left='104' Top='0' Width='17' Height='17' />
-			<ArrowDown Left='104' Top='23' Width='17' Height='17' />
-			<PageUp Left='0' Top='111' Width='17' Height='2' />
-			<PageDown Left='0' Top='112' Width='17' Height='2' />
-			
-			<ThumbUp Left='126' Top='39' Width='17' Height='5' />
-			<ThumbMiddleUp Left='126' Top='44' Width='17' Height='1' />
-			<ThumbMiddle Left='126' Top='45' Width='17' Height='5' />
-			<ThumbMiddleDown Left='126' Top='50' Width='17' Height='1' />
-			<ThumbDown Left='126' Top='51' Width='17' Height='5' />
-		</VertActive>
-	</ScrollBarPlaylist>
+		<ThumbLeft Left='48' Top='0' Width='4' Height='16' />
+		<ThumbMiddleLeft Left='52' Top='0' Width='1' Height='16' />
+		<ThumbMiddle Left='53' Top='0' Width='9' Height='16' />
+		<ThumbMiddleRight Left='62' Top='0' Width='1' Height='16' />
+		<ThumbRight Left='63' Top='0' Width='4' Height='16' />
+	</HorzNormal>
 
-<ChatSkinArea Image='Chat.png' AlphaMode='1' WidthLimit='300' HeightLimit='200' 
-      IconWidth='15' IconHeight='10' PdLeft='0' PdTop='331' AdLeft='0' AdTop='346' GmLeft='0' GmTop='316' PrivateSayLeft='0' PrivateSayTop='378' EtcLeft='0' EtcTop='361'
-	  MemoLeft='20' MemoTop='720' MemoTextLeft='905' MemoTextTop='248' MemoLoginLeft='905' MemoLoginTop='232' MemoBlockLeft='905' MemoBlockTop='232' MemoCheckLeft='905' MemoCheckTop='232'
-      ListLeft='250' ListTop='600' ListTextLeft='905' ListTextTop='42' ListBoldLeft='905' ListBoldTop='26' ListMyLeft='905' ListMyTop='58' ListPrivateSayLeft='905' ListPrivateSayTop='73' 
-	  HighLightColorLeft='905' HighLightColorTop='89' HighLightTextColorLeft='-1' HighLightTextColorTop='-1' 
-	  NickNormalColorLeft='905' NickNormalColorTop='42' NickSuccessColorLeft='1024' NickSuccessColorTop='153' NickAlertColorLeft='1024' NickAlertColorTop='137' 
-	  ContentLeft='50' ContentTop='600' SearchTextLeft='905' SearchTextTop='42'
-	  NickCheckLeft='0' NickCheckTop='99' NickCheckWidth='68' NickCheckHeight='21' NickChangeLeft='0' NickChangeTop='125' NickChangeWidth='68' NickChangeHeight='21' 
-	  EmoticonCloseLeft='536' EmoticonCloseTop='235' EmoticonCloseWidth='11' EmoticonCloseHeight='11'
-      UseWindowFrame='0' >
-		<Control>
+	<HorzActive>
+		<ArrowLeft Left='22' Top='0' Width='17' Height='16' />
+		<ArrowRight Left='23' Top='22' Width='17' Height='16' />
+		<PageLeft Left='3' Top='83' Width='3' Height='16' />
+		<PageRight Left='4' Top='83' Width='3' Height='16' />
 
-			<Static Align='Top' Image="Playlist.png" Height='30' ImageLeft='0' ImageTop='1' ImageWidth='35' ImageHeight='89' LeftMargin='1' RightMargin='1' UsingRgn='1' IsTitleBar='1'>
-				<Label Align='Left' CmdID='ID_CHAT_WINDOW' OffsetLeft='12' Width='100' ColorX='518' ColorY='146' FontName='Segoe UI' FontBold='1' FontSize='12' VertAlignment='1' Text='$MAIN_TAB_CHAT' AltText='$MAIN_TAB_BROWSER' />
-				<Button Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_CHAT_WINDOW' Left='-45' Top='0' Height='30' ImageLeft='35' ImageTop='0' Width='45' />
-				<Button Image="Playlist.png" Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_CHAT' Left='-90' Top='0' Height='30' ImageLeft='35' ImageTop='30' Width='45' />
+		<ThumbLeft Left='48' Top='22' Width='4' Height='16' />
+		<ThumbMiddleLeft Left='52' Top='22' Width='1' Height='16' />
+		<ThumbMiddle Left='53' Top='22' Width='9' Height='16' />
+		<ThumbMiddleRight Left='62' Top='22' Width='1' Height='16' />
+		<ThumbRight Left='63' Top='22' Width='4' Height='16' />
+	</HorzActive>
+
+	<VertNormal>
+		<ArrowUp Left='72' Top='0' Width='17' Height='17' />
+		<ArrowDown Left='72' Top='23' Width='17' Height='17' />
+		<PageUp Left='0' Top='112' Width='17' Height='2' />
+		<PageDown Left='0' Top='112' Width='17' Height='2' />
+
+		<ThumbUp Left='126' Top='0' Width='17' Height='5' />
+		<ThumbMiddleUp Left='126' Top='5' Width='17' Height='1' />
+		<ThumbMiddle Left='126' Top='6' Width='17' Height='5' />
+		<ThumbMiddleDown Left='126' Top='11' Width='17' Height='1' />
+		<ThumbDown Left='126' Top='12' Width='17' Height='5' />
+	</VertNormal>
+
+	<VertActive>
+		<ArrowUp Left='104' Top='0' Width='17' Height='17' />
+		<ArrowDown Left='104' Top='23' Width='17' Height='17' />
+		<PageUp Left='0' Top='111' Width='17' Height='2' />
+		<PageDown Left='0' Top='112' Width='17' Height='2' />
+
+		<ThumbUp Left='126' Top='39' Width='17' Height='5' />
+		<ThumbMiddleUp Left='126' Top='44' Width='17' Height='1' />
+		<ThumbMiddle Left='126' Top='45' Width='17' Height='5' />
+		<ThumbMiddleDown Left='126' Top='50' Width='17' Height='1' />
+		<ThumbDown Left='126' Top='51' Width='17' Height='5' />
+	</VertActive>
+</ScrollBarPlaylist>
+
+<ChatSkinArea Image='Chat.png' AlphaMode='1' WidthLimit='300' HeightLimit='200' IconWidth='15' IconHeight='10' PdLeft='0' PdTop='331' AdLeft='0' AdTop='346' GmLeft='0' GmTop='316' PrivateSayLeft='0' PrivateSayTop='378' EtcLeft='0' EtcTop='361' MemoLeft='20' MemoTop='720' MemoTextLeft='905' MemoTextTop='248' MemoLoginLeft='905' MemoLoginTop='232' MemoBlockLeft='905' MemoBlockTop='232' MemoCheckLeft='905' MemoCheckTop='232' ListLeft='250' ListTop='600' ListTextLeft='905' ListTextTop='42' ListBoldLeft='905' ListBoldTop='26' ListMyLeft='905' ListMyTop='58' ListPrivateSayLeft='905' ListPrivateSayTop='73' HighLightColorLeft='905' HighLightColorTop='89' HighLightTextColorLeft='-1' HighLightTextColorTop='-1' NickNormalColorLeft='905' NickNormalColorTop='42' NickSuccessColorLeft='1024' NickSuccessColorTop='153' NickAlertColorLeft='1024' NickAlertColorTop='137' ContentLeft='50' ContentTop='600' SearchTextLeft='905' SearchTextTop='42' NickCheckLeft='0' NickCheckTop='99' NickCheckWidth='68' NickCheckHeight='21' NickChangeLeft='0' NickChangeTop='125' NickChangeWidth='68' NickChangeHeight='21' EmoticonCloseLeft='536' EmoticonCloseTop='235' EmoticonCloseWidth='11' EmoticonCloseHeight='11' UseWindowFrame='0' >
+	<Control>
+
+		<Static Align='Top' Image="Playlist.png" Height='30' ImageLeft='0' ImageTop='1' ImageWidth='35' ImageHeight='89' LeftMargin='1' RightMargin='1' UsingRgn='1' IsTitleBar='1'>
+			<Label Align='Left' CmdID='ID_CHAT_WINDOW' OffsetLeft='12' Width='100' ColorX='518' ColorY='146' FontName='Segoe UI' FontBold='1' FontSize='12' VertAlignment='1' Text='$MAIN_TAB_CHAT' AltText='$MAIN_TAB_BROWSER' />
+			<Button Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_CHAT_WINDOW' Left='-45' Top='0' Height='30' ImageLeft='35' ImageTop='0' Width='45' />
+			<Button Image="Playlist.png" Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_CHAT' Left='-90' Top='0' Height='30' ImageLeft='35' ImageTop='30' Width='45' />
+		</Static>
+
+		<Static Align='Bottom' LeftMargin='200' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='751' ImageWidth='320' ImageHeight='3' Height='3' AltImageLeft='342' AltImageTop='751' />
+
+		<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageTop='525' ImageWidth='3' ImageHeight='225' Width='3' AltImageLeft='342' AltImageTop='525' />
+		<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='317' ImageTop='525' ImageWidth='3' ImageHeight='225' Width='3' AltImageLeft='659' AltImageTop='525' />
+
+		<Static Align='Client' Contain='CMD_CHAT_HOLDER'>
+
+			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='10' RightMargin='10' TopMargin='10' BottomMargin='40' ImageLeft='683' ImageTop='504' ImageWidth='136' ImageHeight='106' Left='60' Top='62' Width='200' Height='193' PopupTag='50000' >
+
+				<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='10' Width='100' Height='19' Text='$CMD_CHAT_VIEW_FONT_TITLE' ColorX='905' ColorY='136' AutoSize='1' />
+				<Static UsingAlpha='1' Left='10' Top='25' Width='185' Height='21' >
+					<Label Align='Left' Width='10' FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CMD_CHAT_FONT_SIZE' AutoSize='1' VertAlignment='1' />
+					<Layout Align='Left' Width='5' />
+					<Button Align='Left' CmdID='CMD_CHAT_SCALE_SELECT' IgnorePopupClose='1' Width='86' Height='21' ImageLeft='473' ImageTop='385' ImageWidth='62' ImageHeight='21' LeftMargin='5' RightMargin='25' CorrectPopupPos='1' AutoSize='1' >
+						<Layout Width='5' />
+						<Label CmdID='CMD_CHAT_SCALE_MESSAGE' Text='%s%%' ColorX='905' ColorY='153' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='11' HoriAlignment='1' VertAlignment='1' AutoSize='1' />
+						<Layout Width='25' />
+					</Button>
+				</Static>
+
+				<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='55' Width='100' Height='19' Text='$CMD_CHAT_VIEW_OPTION_TITLE' ColorX='905' ColorY='136' AutoSize='1' />
+				<Image CmdID='CMD_CHAT_INOUT_STATE_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='74' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Image CmdID='CMD_CHAT_INOUT_STATE_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='74' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Label CmdID='CMD_CHAT_INOUT_STATE' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='74' Width='70' Height='19' Text='$CHAT_ONLY_VIEW_MESSAGE' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Image CmdID='CMD_CHAT_ALRAM_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='95' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Image CmdID='CMD_CHAT_ALRAM_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='95' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Label CmdID='CMD_CHAT_ALRAM' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='95' Width='70' Height='19' Text='$CHAT_ALRAM' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Image CmdID='CMD_CHAT_PRIVATE_STOP_ON' IgnorePopupClose='1' Enabled='1' Left='100' Top='74' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Image CmdID='CMD_CHAT_PRIVATE_STOP_OFF' IgnorePopupClose='1' Enabled='1' Left='100' Top='74' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Label CmdID='CMD_CHAT_PRIVATE_STOP' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='117' Top='74' Width='70' Height='19' Text='$CHAT_WHISPER' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Image CmdID='CMD_CHAT_EMOTICON_VIEW_ON' IgnorePopupClose='1' Enabled='1' Left='100' Top='95' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Image CmdID='CMD_CHAT_EMOTICON_VIEW_OFF' IgnorePopupClose='1' Enabled='1' Left='100' Top='95' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
+				<Label CmdID='CMD_CHAT_EMOTICON_VIEW' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='117' Top='95' Width='70' Height='19' Text='$CHAT_EMOTICON' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Button CmdID='CMD_CHAT_CONTENT_SAVE' IgnorePopupClose='1' Left='10' Top='115' Width='85' Height='21' ImageLeft='473' ImageTop='358' ImageWidth='85' ImageHeight='21' >
+					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CHAT_SAVE' HoriAlignment='1' VertAlignment='1' />
+				</Button>
+				<Button CmdID='CMD_CHAT_CONTENT_CLEAR' IgnorePopupClose='1' Left='100' Top='115' Width='85' Height='21' ImageLeft='473' ImageTop='358' ImageWidth='85' ImageHeight='21' >
+					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CHAT_DELETE' HoriAlignment='1' VertAlignment='1' />
+				</Button>
+
+				<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='145' Width='100' Height='19' Text='$CMD_CHAT_STYLE' ColorX='905' ColorY='136' AutoSize='1' />
+				<Label FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='170' Width='70' Height='19' Text='$CMD_CHAT_DARK' ColorX='905' ColorY='153' />
+				<Button CmdID='CMD_SET_SKIN_STYLE' Tooltip='$CMD_CHAT_DARK' SkinStyle='Black' IgnorePopupClose='1' DownFlag='1' Left='60' Top='170' Width='25' Height='13' ImageLeft='602' ImageTop='67' HoriAlignment='0' VertAlignment='0' />
+
 			</Static>
 
-			<Static Align='Bottom' LeftMargin='200' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='751' ImageWidth='320' ImageHeight='3' Height='3' AltImageLeft='342' AltImageTop='751' />
+			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='10' RightMargin='10' TopMargin='10' BottomMargin='40' ImageLeft='683' ImageTop='504' ImageWidth='136' ImageHeight='106' Left='60' Top='62' Width='94' Height='112' PopupTag='60000' >
 
-			<Static Align='Left' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageTop='525' ImageWidth='3' ImageHeight='225' Width='3' AltImageLeft='342' AltImageTop='525' />
-			<Static Align='Right' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='317' ImageTop='525' ImageWidth='3' ImageHeight='225' Width='3' AltImageLeft='659' AltImageTop='525' />
+				<Label CmdID='CMD_CAST_VIEW_CASH' Text='$CMD_CHAT_SUPPORT_LIST' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='10' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
 
-			<Static Align='Client' Contain='CMD_CHAT_HOLDER'>
-			
-				<Static Contain='CMD_POPUP_WINDOW' LeftMargin='10' RightMargin='10' TopMargin='10' BottomMargin='40' ImageLeft='683' ImageTop='504' ImageWidth='136' ImageHeight='106' Left='60' Top='62' Width='200' Height='193' PopupTag='50000' >
-				
-					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='10' Width='100' Height='19' Text='$CMD_CHAT_VIEW_FONT_TITLE' ColorX='905' ColorY='136' AutoSize='1' />
-					<Static UsingAlpha='1' Left='10' Top='25' Width='185' Height='21' >
-						<Label Align='Left' Width='10' FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CMD_CHAT_FONT_SIZE' AutoSize='1' VertAlignment='1' />
-						<Layout Align='Left' Width='5' />
-						<Button Align='Left' CmdID='CMD_CHAT_SCALE_SELECT' IgnorePopupClose='1' Width='86' Height='21' ImageLeft='473' ImageTop='385' ImageWidth='62' ImageHeight='21' LeftMargin='5' RightMargin='25' CorrectPopupPos='1' AutoSize='1' >
+				<Static UsingAlpha='1' Left='10' Top='30' Width='80' Height='21' >
+					<Label Align='Left' CmdID='CMD_CAST_CHAT_DISALLOW' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Width='10' Text='$CMD_CHAT_STOP' ColorX='905' ColorY='153' AutoSize='1' MaxAutoSize='46' />
+					<Layout Align='Left' Width='6' />
+					<Button Align='Left' CmdID='CMD_CAST_CHAT_DISALLOW' IgnorePopupClose='1' DownFlag='1' Width='25' ImageLeft='602' ImageTop='67' ImageWidth='25' ImageHeight='13' HoriAlignment='0' VertAlignment='0' />
+				</Static>
+
+				<Label CmdID='CMD_CHAT_ASSIGN_NOTIFY' Text='$CMD_CHAT_ASSIGN_NOTIFY' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='50' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Label CmdID='CMD_CHAT_DELETE_NOTIFY' Text='$CMD_CHAT_DELETE_NOTIFY' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='70' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+				<Label CmdID='ID_BROADCAST_BLACK_LIST_MAG' Text='$ID_BROADCAST_BLACK_LIST_MAG' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='90' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+
+			</Static>
+
+			<Static Align='Client' State='CMD_VTP_MODE' Contain='CMD_REPLY_CONTENT' />
+			<Static Align='Client' State='CMD_NOT_VTP_MODE'>
+
+				<Static Align='Bottom' LeftMargin='20' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='699' ImageWidth='314' ImageHeight='52' Height='52'>
+					<Static Contain='CMD_CHAT_MEMO_SEND' Left='10' Top='5' Width='-73' Height='-2' />
+					<Button CmdID='CMD_CHAT_MEMO_SEND' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='0' ImageTop='161' VertCenter='1' />
+					<Button CmdID='ID_LOGIN_MENU' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='223' ImageTop='161' VertCenter='1' />
+					<Button CmdID='CMD_CHECK_NAME' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='446' ImageTop='161' VertCenter='1' />
+				</Static>
+
+				<Static Align='Bottom' LeftMargin='200' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='667' ImageWidth='314' ImageHeight='32' Height='32' IsSplitter='1' MinSplitterSizeLT = '110' MinSplitterSizeRB = '52'>
+					<Layout Align='Left' Width='10' />
+					<Button Align='Left' Tooltip='$CMD_CHAT_EMOTICON' CmdID='CMD_CHAT_EMOTICON' Width='22' Height='14' ImageLeft='111' ImageTop='67' DownFlag='1' />
+					<Layout Align='Left' Width='2' />
+					<Image Align='Left' Width='1' ImageLeft='0' ImageTop='66' ImageWidth='1' ImageHeight='16' Alignment='5' />
+					<Layout Align='Left' Width='1' />
+					<Button Align='Left' Tooltip='$CAST_RECOMMAND' CmdID='CMD_GOOD_BROADCAST' Width='22' Height='14' ImageLeft='342' ImageTop='123' AutoVisible='1' />
+
+					<Static Align='Right' Width='24' UsingAlpha='1' >
+						<Button Align='Left' Tooltip='$CMD_CHAT_TOOLTIP_OPTION' CmdID='CMD_POPUP_WINDOW' Width='22' Height='14' ImageLeft='375' ImageTop='67' DownFlag='1' PopupTag='50000' PopupPos='50000' PopupAlign='4' PopupMarginX='-185' PopupMarginY='-208' />
+					</Static>
+					<Static Align='Right' State='CMD_BROADCAST_MODE' Width='32' UsingAlpha='1' >
+						<Button Align='Left' Tooltip='$CMD_CHAT_TOOLTIP_CAST_OPTION' CmdID='CMD_POPUP_WINDOW' Width='22' Height='14' ImageLeft='259' ImageTop='67' DownFlag='1' PopupTag='60000' PopupPos='60000' PopupAlign='4' PopupMarginX='-80' PopupMarginY='-128' />
+					</Static>
+				</Static>
+
+				<Static Align='Top' LeftMargin='10' RightMargin='150' Height='31' ImageLeft='3' ImageTop='525' ImageWidth='314' ImageHeight='31' >
+					<Static Align='Right' UsingAlpha='1' Width='21' AutoSize='1' >
+						<Layout Align='Right' Width='5' />
+						<Button CmdID='CMD_CHAT_USER_OPEN' Align='Right' Width='21' ImageLeft='637' ImageTop='284' ImageWidth='21' ImageHeight='20' Tooltip='$CMD_CHAT_USER_OPEN' />
+						<Button CmdID='CMD_CHAT_USER_CLOSE' Align='Right' Width='21' ImageLeft='637' ImageTop='284' ImageWidth='21' ImageHeight='20' Tooltip='$CMD_CHAT_USER_CLOSE' DownFlag='1' />
+						<Layout Align='Right' Width='5' />
+					</Static>
+
+					<Static Align='Right' State='CMD_B_AND_V_MODE' UsingAlpha='1' Width='60' >
+						<Button CmdID='CMD_CLIENT_CHAT_MODE' Left='0' Top='5' Width='30' Height='20' ImageLeft='0' ImageTop='235' />
+						<Button CmdID='CMD_SERVER_CHAT_MODE' Left='29' Top='5' Width='30' Height='20' ImageLeft='124' ImageTop='235' />
+					</Static>
+
+					<Static Align='Left' UsingAlpha='1' Width='10' />
+
+					<Static Align='Client' State='CMD_BROADCAST_MODE CMD_CHAT_PD_MODE' UsingAlpha='1' >
+						<Button CmdID='CMD_CHAT_ROOM_NAME' Align='Left' Width='45' Height='22' ImageLeft='298' ImageTop='235' ImageWidth='45' ImageHeight='20' AutoSize='1' LeftMargin='5' RightMargin='5' CorrectPopupPos='1' >
 							<Layout Width='5' />
-							<Label CmdID='CMD_CHAT_SCALE_MESSAGE' Text='%s%%' ColorX='905' ColorY='153' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='11' HoriAlignment='1' VertAlignment='1' AutoSize='1' />
-							<Layout Width='25' />
-						</Button>						
+							<Label CmdID='CMD_CHAT_ROOM_NAME' ColorX='905' ColorY='185' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' VertAlignment='1' AutoSize='1' />
+							<Layout Width='4' />
+							<Image CmdID='CMD_POPUP_MENU_ON' PopupTag='CMD_CHAT_ROOM_NAME' Width='7' Height='4' ImageLeft='502' ImageTop='235' ImageWidth='7' ImageHeight='4' Alignment='5' />
+							<Image CmdID='CMD_POPUP_MENU_OFF' PopupTag='CMD_CHAT_ROOM_NAME' Width='7' Height='4' ImageLeft='519' ImageTop='235' ImageWidth='7' ImageHeight='4' Alignment='5' />
+							<Layout Width='1' />
+						</Button>
+						<Layout CmdID='CMD_CHAT_ROOM_NEW' Align='Left' Width='7' />
+						<Image CmdID='CMD_CHAT_ROOM_NEW' Align='Left' Width='9' ImageLeft='483' ImageTop='235' ImageWidth='9' ImageHeight='9' Alignment='5' />
+						<Layout Align='Left' Width='8' />
+						<Image Align='Left' Width='11' ImageLeft='556' ImageTop='20' ImageWidth='11' ImageHeight='9' Alignment='5' />
+						<Layout Align='Left' Width='5' />
+						<Layout Align='Right' Width='8' />
+						<Label CmdID='CMD_CHAT_NOTIFY_MESSAGE' Align='Client' ColorX='905' ColorY='295' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='11' VertAlignment='1' />
 					</Static>
-					
-					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='55' Width='100' Height='19' Text='$CMD_CHAT_VIEW_OPTION_TITLE' ColorX='905' ColorY='136' AutoSize='1' />
-					<Image CmdID='CMD_CHAT_INOUT_STATE_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='74' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Image CmdID='CMD_CHAT_INOUT_STATE_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='74' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Label CmdID='CMD_CHAT_INOUT_STATE' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='74' Width='70' Height='19' Text='$CHAT_ONLY_VIEW_MESSAGE' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-					
-					<Image CmdID='CMD_CHAT_ALRAM_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='95' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Image CmdID='CMD_CHAT_ALRAM_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='95' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Label CmdID='CMD_CHAT_ALRAM' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='95' Width='70' Height='19' Text='$CHAT_ALRAM' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
 
-					<Image CmdID='CMD_CHAT_PRIVATE_STOP_ON' IgnorePopupClose='1' Enabled='1' Left='100' Top='74' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Image CmdID='CMD_CHAT_PRIVATE_STOP_OFF' IgnorePopupClose='1' Enabled='1' Left='100' Top='74' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Label CmdID='CMD_CHAT_PRIVATE_STOP' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='117' Top='74' Width='70' Height='19' Text='$CHAT_WHISPER' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
+					<Static Align='Client' State='CMD_VIEWER_MODE' UsingAlpha='1' >
+						<Image CmdID='CMD_CHAT_ROOM_TYPE' Align='Left' Width='12' ImageLeft='556' ImageTop='17' ImageWidth='12' ImageHeight='16' Alignment='5' AutoSize='1' >
+							<SubImage ImageLeft='556' ImageTop='17' ImageWidth='12' ImageHeight='16' />
+							<SubImage ImageLeft='498' ImageTop='17' ImageWidth='28' ImageHeight='20' />
+							<SubImage ImageLeft='527' ImageTop='17' ImageWidth='28' ImageHeight='20' />
+						</Image>
+						<Layout Align='Left' Width='8' />
+						<Image Align='Left' Width='11' ImageLeft='556' ImageTop='20' ImageWidth='11' ImageHeight='9' Alignment='5' />
+						<Layout Align='Left' Width='5' />
 
-					<Image CmdID='CMD_CHAT_EMOTICON_VIEW_ON' IgnorePopupClose='1' Enabled='1' Left='100' Top='95' Width='14' Height='14' ImageLeft='366' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Image CmdID='CMD_CHAT_EMOTICON_VIEW_OFF' IgnorePopupClose='1' Enabled='1' Left='100' Top='95' Width='14' Height='14' ImageLeft='381' ImageTop='283' ImageWidth='14' ImageHeight='14' />
-					<Label CmdID='CMD_CHAT_EMOTICON_VIEW' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='117' Top='95' Width='70' Height='19' Text='$CHAT_EMOTICON' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-					
-					<Button CmdID='CMD_CHAT_CONTENT_SAVE' IgnorePopupClose='1' Left='10' Top='115' Width='85' Height='21' ImageLeft='473' ImageTop='358' ImageWidth='85' ImageHeight='21' >
-						<Label FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CHAT_SAVE' HoriAlignment='1' VertAlignment='1' />
-					</Button>
-					<Button CmdID='CMD_CHAT_CONTENT_CLEAR' IgnorePopupClose='1' Left='100' Top='115' Width='85' Height='21' ImageLeft='473' ImageTop='358' ImageWidth='85' ImageHeight='21' >
-						<Label FontName='#DEFAULT_UI_FONT' FontSize='11' ColorX='905' ColorY='153' Text='$CHAT_DELETE' HoriAlignment='1' VertAlignment='1' />
-					</Button>
-					
-					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' Left='10' Top='145' Width='100' Height='19' Text='$CMD_CHAT_STYLE' ColorX='905' ColorY='136' AutoSize='1' />
-					<Label FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='170' Width='70' Height='19' Text='$CMD_CHAT_DARK' ColorX='905' ColorY='153' />
-					<Button CmdID='CMD_SET_SKIN_STYLE' Tooltip='$CMD_CHAT_DARK' SkinStyle='Black' IgnorePopupClose='1' DownFlag='1' Left='60' Top='170' Width='25' Height='13' ImageLeft='602' ImageTop='67' HoriAlignment='0' VertAlignment='0' />
-			
+						<Layout Align='Right' Width='8' />
+						<Label CmdID='CMD_CHAT_NOTIFY_MESSAGE' Align='Client' ColorX='905' ColorY='295' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='11' VertAlignment='1' />
+					</Static>
+
 				</Static>
-				
-				<Static Contain='CMD_POPUP_WINDOW' LeftMargin='10' RightMargin='10' TopMargin='10' BottomMargin='40' ImageLeft='683' ImageTop='504' ImageWidth='136' ImageHeight='106' Left='60' Top='62' Width='94' Height='112' PopupTag='60000' >
-				
-					<Label CmdID='CMD_CAST_VIEW_CASH' Text='$CMD_CHAT_SUPPORT_LIST' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='10' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-					
-					<Static UsingAlpha='1' Left='10' Top='30' Width='80' Height='21' >
-						<Label Align='Left' CmdID='CMD_CAST_CHAT_DISALLOW' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Width='10' Text='$CMD_CHAT_STOP' ColorX='905' ColorY='153' AutoSize='1' MaxAutoSize='46' />
-						<Layout Align='Left' Width='6' />
-						<Button Align='Left' CmdID='CMD_CAST_CHAT_DISALLOW' IgnorePopupClose='1' DownFlag='1' Width='25' ImageLeft='602' ImageTop='67' ImageWidth='25' ImageHeight='13' HoriAlignment='0' VertAlignment='0' />
-					</Static>
 
-					<Label CmdID='CMD_CHAT_ASSIGN_NOTIFY' Text='$CMD_CHAT_ASSIGN_NOTIFY' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='50' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-
-					<Label CmdID='CMD_CHAT_DELETE_NOTIFY' Text='$CMD_CHAT_DELETE_NOTIFY' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='70' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-					
-					<Label CmdID='ID_BROADCAST_BLACK_LIST_MAG' Text='$ID_BROADCAST_BLACK_LIST_MAG' IgnorePopupClose='1' Enabled='1' AutoEnable='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='10' Top='90' Width='70' Height='19' ColorX='905' ColorY='153' OverColorX='905' OverColorY='169' PushColorX='905' PushColorY='169' DimColorX='972' DimColorY='153' />
-					
+				<Static Align='Right' State='CMD_CHAT_USER_LIST' Width='110' >
+					<Static Contain='CMD_VIEWER_CHAT_USERLIST' Align='Client' />
+					<Static Contain='CMD_BROAD_CHAT_USERLIST' Align='Client' />
 				</Static>
-			
-				<Static Align='Client' State='CMD_VTP_MODE' Contain='CMD_REPLY_CONTENT' />
-				<Static Align='Client' State='CMD_NOT_VTP_MODE'>
+				<Static Align='Right' State='CMD_CHAT_USER_LIST' LeftMargin='0' RightMargin='0' TopMargin='10' BottomMargin='10' ImageLeft='227' ImageTop='556' ImageWidth='4' ImageHeight='111' Width='4' IsSplitter='1' MinSplitterSizeLT = '90' MinSplitterSizeRB = '90' />
 
-					<Static Align='Bottom' LeftMargin='20' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='699' ImageWidth='314' ImageHeight='52' Height='52'>
-						<Static Contain='CMD_CHAT_MEMO_SEND' Left='10' Top='5' Width='-73' Height='-2' />
-						<Button CmdID='CMD_CHAT_MEMO_SEND' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='0' ImageTop='161' VertCenter='1' />
-						<Button CmdID='ID_LOGIN_MENU' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='223' ImageTop='161' VertCenter='1' />
-						<Button CmdID='CMD_CHECK_NAME' AutoVisible='1' Left='-63' Top='1' Width='53' Height='32' ImageLeft='446' ImageTop='161' VertCenter='1' />
-					</Static>
+				<Static Align='Client' >
+					<Static Contain='CMD_VIEWER_CHAT_CONTENT' Align='Client' />
+					<Static Contain='CMD_BROAD_CHAT_CONTENT' Align='Client' />
 
-					<Static Align='Bottom' LeftMargin='200' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='3' ImageTop='667' ImageWidth='314' ImageHeight='32' Height='32' IsSplitter='1' MinSplitterSizeLT = '110' MinSplitterSizeRB = '52'>
-						<Layout Align='Left' Width='10' />
-						<Button Align='Left' Tooltip='$CMD_CHAT_EMOTICON' CmdID='CMD_CHAT_EMOTICON' Width='22' Height='14' ImageLeft='111' ImageTop='67' DownFlag='1' />
-						<Layout Align='Left' Width='2' />
-						<Image Align='Left' Width='1' ImageLeft='0' ImageTop='66' ImageWidth='1' ImageHeight='16' Alignment='5' />
-						<Layout Align='Left' Width='1' />						
-						<Button Align='Left' Tooltip='$CAST_RECOMMAND' CmdID='CMD_GOOD_BROADCAST' Width='22' Height='14' ImageLeft='342' ImageTop='123' AutoVisible='1' />
-						
-						<Static Align='Right' Width='24' UsingAlpha='1' >
-							<Button Align='Left' Tooltip='$CMD_CHAT_TOOLTIP_OPTION' CmdID='CMD_POPUP_WINDOW' Width='22' Height='14' ImageLeft='375' ImageTop='67' DownFlag='1' PopupTag='50000' PopupPos='50000' PopupAlign='4' PopupMarginX='-185' PopupMarginY='-208' />
-						</Static>
-						<Static Align='Right' State='CMD_BROADCAST_MODE' Width='32' UsingAlpha='1' >
-							<Button Align='Left' Tooltip='$CMD_CHAT_TOOLTIP_CAST_OPTION' CmdID='CMD_POPUP_WINDOW' Width='22' Height='14' ImageLeft='259' ImageTop='67' DownFlag='1' PopupTag='60000' PopupPos='60000' PopupAlign='4' PopupMarginX='-80' PopupMarginY='-128' />
-						</Static>
-					</Static>
-
-					<Static Align='Top' LeftMargin='10' RightMargin='150' Height='31' ImageLeft='3' ImageTop='525' ImageWidth='314' ImageHeight='31' >
-						<Static Align='Right' UsingAlpha='1' Width='21' AutoSize='1' >
-							<Layout Align='Right' Width='5' />
-							<Button CmdID='CMD_CHAT_USER_OPEN' Align='Right' Width='21' ImageLeft='637' ImageTop='284' ImageWidth='21' ImageHeight='20' Tooltip='$CMD_CHAT_USER_OPEN' />
-							<Button CmdID='CMD_CHAT_USER_CLOSE' Align='Right' Width='21' ImageLeft='637' ImageTop='284' ImageWidth='21' ImageHeight='20' Tooltip='$CMD_CHAT_USER_CLOSE' DownFlag='1' />
-							<Layout Align='Right' Width='5' />							
-						</Static>
-
-						<Static Align='Right' State='CMD_B_AND_V_MODE' UsingAlpha='1' Width='60' >
-							<Button CmdID='CMD_CLIENT_CHAT_MODE' Left='0' Top='5' Width='30' Height='20' ImageLeft='0' ImageTop='235' />
-							<Button CmdID='CMD_SERVER_CHAT_MODE' Left='29' Top='5' Width='30' Height='20' ImageLeft='124' ImageTop='235' />
-						</Static>
-						
-						<Static Align='Left' UsingAlpha='1' Width='10' />
-						
-						<Static Align='Client' State='CMD_BROADCAST_MODE CMD_CHAT_PD_MODE' UsingAlpha='1' >
-							<Button CmdID='CMD_CHAT_ROOM_NAME' Align='Left' Width='45' Height='22' ImageLeft='298' ImageTop='235' ImageWidth='45' ImageHeight='20' AutoSize='1' LeftMargin='5' RightMargin='5' CorrectPopupPos='1' >
-								<Layout Width='5' />
-								<Label CmdID='CMD_CHAT_ROOM_NAME' ColorX='905' ColorY='185' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' VertAlignment='1' 
-									AutoSize='1' />
-								<Layout Width='4' />
-								<Image CmdID='CMD_POPUP_MENU_ON' PopupTag='CMD_CHAT_ROOM_NAME' Width='7' Height='4' ImageLeft='502' ImageTop='235' ImageWidth='7' ImageHeight='4' Alignment='5' />
-								<Image CmdID='CMD_POPUP_MENU_OFF' PopupTag='CMD_CHAT_ROOM_NAME' Width='7' Height='4' ImageLeft='519' ImageTop='235' ImageWidth='7' ImageHeight='4' Alignment='5' />
-								<Layout Width='1' />
-							</Button>
-							<Layout CmdID='CMD_CHAT_ROOM_NEW' Align='Left' Width='7' />
-							<Image CmdID='CMD_CHAT_ROOM_NEW' Align='Left' Width='9' ImageLeft='483' ImageTop='235' ImageWidth='9' ImageHeight='9' Alignment='5' />
-							<Layout Align='Left' Width='8' />
-							<Image Align='Left' Width='11' ImageLeft='556' ImageTop='20' ImageWidth='11' ImageHeight='9' Alignment='5' />
-							<Layout Align='Left' Width='5' />
-							<Layout Align='Right' Width='8' />
-							<Label CmdID='CMD_CHAT_NOTIFY_MESSAGE' Align='Client' ColorX='905' ColorY='295' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='11' VertAlignment='1' />
-						</Static>
-						
-						<Static Align='Client' State='CMD_VIEWER_MODE' UsingAlpha='1' >
-							<Image CmdID='CMD_CHAT_ROOM_TYPE' Align='Left' Width='12' ImageLeft='556' ImageTop='17' ImageWidth='12' ImageHeight='16' Alignment='5' AutoSize='1' >
-								<SubImage ImageLeft='556' ImageTop='17' ImageWidth='12' ImageHeight='16' />
-								<SubImage ImageLeft='498' ImageTop='17' ImageWidth='28' ImageHeight='20' />
-								<SubImage ImageLeft='527' ImageTop='17' ImageWidth='28' ImageHeight='20' />
-							</Image>
-							<Layout Align='Left' Width='8' />
-							<Image Align='Left' Width='11' ImageLeft='556' ImageTop='20' ImageWidth='11' ImageHeight='9' Alignment='5' />
-							<Layout Align='Left' Width='5' />
-							
-							<Layout Align='Right' Width='8' />
-							<Label CmdID='CMD_CHAT_NOTIFY_MESSAGE' Align='Client' ColorX='905' ColorY='295' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='11' VertAlignment='1' />
-						</Static>
-						
-					</Static>
-
-					<Static Align='Right' State='CMD_CHAT_USER_LIST' Width='110' >
-						<Static Contain='CMD_VIEWER_CHAT_USERLIST' Align='Client' />
-						<Static Contain='CMD_BROAD_CHAT_USERLIST' Align='Client' />
-					</Static>
-					<Static Align='Right' State='CMD_CHAT_USER_LIST' LeftMargin='0' RightMargin='0' TopMargin='10' BottomMargin='10' ImageLeft='227' ImageTop='556' ImageWidth='4' ImageHeight='111' Width='4' IsSplitter='1' MinSplitterSizeLT = '90' MinSplitterSizeRB = '90' />
-
-					<Static Align='Client' >
-						<Static Contain='CMD_VIEWER_CHAT_CONTENT' Align='Client' />
-						<Static Contain='CMD_BROAD_CHAT_CONTENT' Align='Client' />
-						
-					</Static>
 				</Static>
+			</Static>
 				#if<SkinStyle==SettingsOn>
-					<Static Image='ControlPanel.png' State='CMD_PLAYLIST_ATTACH' Align='Client'>
-						<Static Align='Left' Width='48' ImageLeft='80' ImageTop='0' ImageWidth='48' ImageHeight='219' TopMargin='1' BottomMargin='1'>
-							<Button  Tooltip='Back' CmdID='CMD_SET_SKIN_STYLE' Align="Top" SkinStyle='SettingsOn' Width='48' Height='48' ImageLeft='632' ImageTop='336' />
-							<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_AUDIO_VOL_MODE" PageIndex="0" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="0" />
-							<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO_FILTER" PageIndex="1" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="48" />
-							<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_CAPTION_INPUT" PageIndex="2" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="96" />
-							<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO" PageIndex="3" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="144" />
-							<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_SCREEN_RATIO_SETTING" PageIndex="4" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="192" />
+			<Static Image='ControlPanel.png' State='CMD_PLAYLIST_ATTACH' Align='Client'>
+				<Static Align='Left' Width='48' ImageLeft='80' ImageTop='0' ImageWidth='48' ImageHeight='219' TopMargin='1' BottomMargin='1'>
+					<Button Tooltip='Back' CmdID='CMD_SET_SKIN_STYLE' Align="Top" SkinStyle='SettingsOn' Width='48' Height='48' ImageLeft='632' ImageTop='336' />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_AUDIO_VOL_MODE" PageIndex="0" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="0" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO_FILTER" PageIndex="1" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="48" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_CAPTION_INPUT" PageIndex="2" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="96" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO" PageIndex="3" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="144" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_SCREEN_RATIO_SETTING" PageIndex="4" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="192" />
 
-						</Static>
+				</Static>
 
-						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="0" Width="302" Height="218" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+				<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="0" Width="302" Height="218" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
 							#include<PageEqualizer.xml>
-						</Static>
+					</Static>
 
-						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="1" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-							#include<PageVideo.xml>	
+					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="1" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+							#include<PageVideo.xml>
 						</Static>
 
 						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="2" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-							#include<PageSubtitle.xml>	
-						</Static>
-						
-						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="3" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-							#include<PagePlayback.xml>	
-						</Static>
+							#include<PageSubtitle.xml>
+							</Static>
 
-						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="4" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-							#include<PageFrameSize.xml>	
-						</Static>
-					</Static>
+							<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="3" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+							#include<PagePlayback.xml>
+								</Static>
+
+								<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="4" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+							#include<PageFrameSize.xml>
+									</Static>
+								</Static>
 					
 				#endif
-			</Static>	
-		</Control>
-	</ChatSkinArea>
+							</Static>
+						</Control>
+					</ChatSkinArea>
 
 
 
 
 
-<WindowSkinArea Image="Window.png" AlphaMode="1" UseWindowFrame="0" >
-	<Common>
-		<BtnPosition Left="230" Top="52" Width="73" Height="21" />
-		<AltBtnPosition Left="230" Top="77" Width="73" Height="21" />
-		<BtnTextColor Left="5" Top="124" />
+					<WindowSkinArea Image="Window.png" AlphaMode="1" UseWindowFrame="0">
+						<Common>
+							<BtnPosition Left="230" Top="52" Width="73" Height="21" />
+							<AltBtnPosition Left="230" Top="77" Width="73" Height="21" />
+							<BtnTextColor Left="5" Top="124" />
 
-		<TabPosition Left="230" Top="0" Width="76" Height="20" Margin=0 />
-		<AltTabPosition Left="230" Top="25" Width="76" Height="20" />
-		<TabTextColor Left="5" Top="124" />
+							<TabPosition Left="230" Top="0" Width="76" Height="20" Margin=0 />
+<AltTabPosition Left="230" Top="25" Width="76" Height="20" />
+							<TabTextColor Left="5" Top="124" />
 
-		<WindowType0 Left="0" Top="0" AltLeft="561" AltTop="1" Width="33" Height="119"
-			TopDrawMargin="69" BottomDrawMargin="49" LeftDrawMargin="16" RightDrawMargin="16"
-			TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1"
-			BottomMargin="36"
-			FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
+							<WindowType0 Left="0" Top="0" AltLeft="561" AltTop="1" Width="33" Height="119" TopDrawMargin="69" BottomDrawMargin="49" LeftDrawMargin="16" RightDrawMargin="16" TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1" BottomMargin="36" FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
 
-		<WindowType1 Left="43" Top="0" AltLeft="604" AltTop="1" Width="33" Height="119"
-			TopDrawMargin="69" BottomDrawMargin="49" LeftDrawMargin="16" RightDrawMargin="16"
-			TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1"
-			TopMargin="27" BottomMargin="36"
-			FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
+							<WindowType1 Left="43" Top="0" AltLeft="604" AltTop="1" Width="33" Height="119" TopDrawMargin="69" BottomDrawMargin="49" LeftDrawMargin="16" RightDrawMargin="16" TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1" TopMargin="27" BottomMargin="36" FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
 
-		<WindowType2 Left="86" Top="0" AltLeft="647" AltTop="1" Width="33" Height="82"
-			TopDrawMargin="69" BottomDrawMargin="12" LeftDrawMargin="16" RightDrawMargin="16"
-			TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1"
-			FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
-		<CloseBtn Left="130" Top="0" Width="31" Height="29" PosX="-32" PosY="1" />
-		<SetupBtn Left="0" Top="271" Width="31" Height="29" PosX="-64" PosY="1" />
-		<TopMostBtn Left='65' Top='33' Width='14' Height='13' />
-		<NonTopMostBtn Left='0' Top='33' Width='14' Height='13' />
-		<AboutIcon Left="130" Top="30" Width="61" Height="61" PosX="62" PosY="73" />
-		<LoginLogo Left="0" Top="186" Width="220" Height="32" />
-		<MessageIconType0 Left="410" Top="108" Width="32" Height="32" />
-		<MessageIconType1 Left="448" Top="108" Width="32" Height="32" />
-		<MessageIconType2 Left="486" Top="108" Width="32" Height="32" />
-		<MessageIconType3 Left="524" Top="108" Width="32" Height="32" />
-		<MessageColorPos Left="1" Top="132" />
-		<MessageHotColorPos Left="5" Top="132" />
-		<MessageGrade15 Left="410" Top="144" Width="32" Height="32" />
-		<MessageGrade18 Left="448" Top="144" Width="32" Height="32" />
-		<MessageGrade19 Left="486" Top="144" Width="32" Height="32" />
-		<MessageGradeNone Left="524" Top="144" Width="32" Height="32" />
-		<AutoUpdateLogo Left="16" Top="123" Width="248" Height="29" PosX="1" PosY="29" />
-	</Common>
-</WindowSkinArea>
+							<WindowType2 Left="86" Top="0" AltLeft="647" AltTop="1" Width="33" Height="82" TopDrawMargin="69" BottomDrawMargin="12" LeftDrawMargin="16" RightDrawMargin="16" TopSkinMargin="31" BottomSkinMargin="1" LeftSkinMargin="1" RightSkinMargin="1" FontName="Segoe UI" FontSize="9" FontBold="0" FontPosLeft="10" FontPosTop="8" FontColorLeft="1" FontColorTop="128" FontColorAltLeft="5" FontColorAltTop="128" />
+							<CloseBtn Left="130" Top="0" Width="31" Height="29" PosX="-32" PosY="1" />
+							<SetupBtn Left="0" Top="271" Width="31" Height="29" PosX="-64" PosY="1" />
+							<TopMostBtn Left='65' Top='33' Width='14' Height='13' />
+							<NonTopMostBtn Left='0' Top='33' Width='14' Height='13' />
+							<AboutIcon Left="130" Top="30" Width="61" Height="61" PosX="62" PosY="73" />
+							<LoginLogo Left="0" Top="186" Width="220" Height="32" />
+							<MessageIconType0 Left="410" Top="108" Width="32" Height="32" />
+							<MessageIconType1 Left="448" Top="108" Width="32" Height="32" />
+							<MessageIconType2 Left="486" Top="108" Width="32" Height="32" />
+							<MessageIconType3 Left="524" Top="108" Width="32" Height="32" />
+							<MessageColorPos Left="1" Top="132" />
+							<MessageHotColorPos Left="5" Top="132" />
+							<MessageGrade15 Left="410" Top="144" Width="32" Height="32" />
+							<MessageGrade18 Left="448" Top="144" Width="32" Height="32" />
+							<MessageGrade19 Left="486" Top="144" Width="32" Height="32" />
+							<MessageGradeNone Left="524" Top="144" Width="32" Height="32" />
+							<AutoUpdateLogo Left="16" Top="123" Width="248" Height="29" PosX="1" PosY="29" />
+						</Common>
+					</WindowSkinArea>
 

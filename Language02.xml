@@ -1,61 +1,61 @@
-﻿#if<LocaleName==RUSSIAN>  
-	<StringTable Name='$MAIN_TITLE' String='PotPlayer' />
-	<StringTable Name='$CMD_PLAYLIST_TAB_SELECT' String='Плей-лист | Открепить плей-лист' />
+﻿#if<LocaleName==RUSSIAN>
+    <StringTable Name='$MAIN_TITLE' String='PotPlayer' />
+    <StringTable Name='$CMD_PLAYLIST_TAB_SELECT' String='Плей-лист | Открепить плей-лист' />
     <StringTable Name='$CMD_BROADCAST_LIST_TAB_SELECT' String='Трансляции | Открепить список трансляций' />
     <StringTable Name='$CMD_CHAT_TAB_SELECT' String='Чат | Открепить окно чата' />
     <StringTable Name='$CMD_PLAYLIST_WINDOW_OFF' String='Показать плей-лист' />
     <StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Скрыть плей-лист' />
     <StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Панель управления' />
-    
+
     <StringTable Name='$ID_CLOSE_WINDOW' String='Закрыть' />
     <StringTable Name='$ID_APP_EXIT' String='Выход' />
     <StringTable Name='$CMD_MAX_WINDOW' String='Развернуть' />
     <StringTable Name='$CMD_RESTORE_WINDOW' String='Восстановить' />
-	<StringTable Name='$CMD_MIN_WINDOW' String='Свернуть' />
-    
+    <StringTable Name='$CMD_MIN_WINDOW' String='Свернуть' />
+
     <StringTable Name='$CMD_CURRENTTIME_MESSAGE' String='Прошедшее время' />
     <StringTable Name='$CMD_TOTALTIME_MESSAGE' String='Общее время' />
     <StringTable Name='$CMD_LEFTTIME_MESSAGE' String='Оставшееся время' />
-	<StringTable Name='$CMD_MEDIA_PLAY' String='Воспроизвести' />
-	<StringTable Name='$CMD_MEDIA_PAUSE' String='Приостановить воспроизведение' />
-	<StringTable Name='$ID_CLOSE_MEDIA' String='Остановить воспроизведение' />
-	<StringTable Name='$ID_PROCESS_PREV_PLAYBACK_5SEC_BACK' String='Предыдущий файл | Переход назад' />
-	<StringTable Name='$ID_PROCESS_NEXT_PLAYBACK_5SEC_FORW' String='Следующий файл | Переход вперед'/>
-	<StringTable Name='$ID_AUDIO_MUTE_ON' String='Звук включен' />
+    <StringTable Name='$CMD_MEDIA_PLAY' String='Воспроизвести' />
+    <StringTable Name='$CMD_MEDIA_PAUSE' String='Приостановить воспроизведение' />
+    <StringTable Name='$ID_CLOSE_MEDIA' String='Остановить воспроизведение' />
+    <StringTable Name='$ID_PROCESS_PREV_PLAYBACK_5SEC_BACK' String='Предыдущий файл | Переход назад' />
+    <StringTable Name='$ID_PROCESS_NEXT_PLAYBACK_5SEC_FORW' String='Следующий файл | Переход вперед'/>
+    <StringTable Name='$ID_AUDIO_MUTE_ON' String='Звук включен' />
     <StringTable Name='$ID_AUDIO_MUTE_OFF' String='Звук отключен' />
     <StringTable Name='$CMD_VOLUME_CTRL' String='Громкость' />
-    
-	<StringTable Name='$PLAYLIST_TITLE' String='Плей-лист' />
+
+    <StringTable Name='$PLAYLIST_TITLE' String='Плей-лист' />
     <StringTable Name='$CMD_ATTACH_MAIN' String='Присоединить к основному окну' />
     <StringTable Name='$CMD_PLAYLIST_ADD' String='Добавить в плейлист' />
-	<StringTable Name='$CMD_PLAYLIST_DEL' String='Удалить из плейлиста' />
+    <StringTable Name='$CMD_PLAYLIST_DEL' String='Удалить из плейлиста' />
     <StringTable Name='$ID_PLAYBACK_SHUFFLE_OFF' String='Случайный порядок отключен' />
     <StringTable Name='$ID_PLAYBACK_SHUFFLE_ON' String='Случайный порядок включен' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_OFF' String='Повтор воспроизведения отключен' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_ALL' String='Повторять все' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_ONE' String='Повторять один' />
-    
+
     <StringTable Name='$CONTROL_SWITCH_ON' String='Вкл.' />
     <StringTable Name='$CONTROL_SWITCH_OFF' String='Откл.' />
-    
+
     <StringTable Name='$CONTROL_VIDEO' String='Видео' />
     <StringTable Name='$CONTROL_COLOR_CONTROLS' String='Управление цветом' />
-	<StringTable Name='$CMD_COLOR_OFFSET' String='Яркость' />
-	<StringTable Name='$CMD_COLOR_GAIN' String='Контраст' />
-	<StringTable Name='$CMD_COLOR_SAT' String='Насыщенность' />
-	<StringTable Name='$CMD_COLOR_HUE' String='Оттенок' />
-	<StringTable Name='$CMD_COLOR_OFFSET_DEFAULT' String='Сбросить яркость' />
-	<StringTable Name='$CMD_COLOR_GAIN_DEFAULT' String='Сбросить контраст' />
-	<StringTable Name='$CMD_COLOR_SAT_DEFAULT' String='Сбросить насыщенность' />
-	<StringTable Name='$CMD_COLOR_HUE_DEFAULT' String='Сбросить оттенок' />
+    <StringTable Name='$CMD_COLOR_OFFSET' String='Яркость' />
+    <StringTable Name='$CMD_COLOR_GAIN' String='Контраст' />
+    <StringTable Name='$CMD_COLOR_SAT' String='Насыщенность' />
+    <StringTable Name='$CMD_COLOR_HUE' String='Оттенок' />
+    <StringTable Name='$CMD_COLOR_OFFSET_DEFAULT' String='Сбросить яркость' />
+    <StringTable Name='$CMD_COLOR_GAIN_DEFAULT' String='Сбросить контраст' />
+    <StringTable Name='$CMD_COLOR_SAT_DEFAULT' String='Сбросить насыщенность' />
+    <StringTable Name='$CMD_COLOR_HUE_DEFAULT' String='Сбросить оттенок' />
     <StringTable Name='$CONTROL_VIDEO_EFFECTS' String='Фильтры обработки видео' />
-	<StringTable Name='$ID_VIDEO_BLUR' String='Размытие' />
-	<StringTable Name='$ID_VIDEO_SHARPEN' String='Резкость' />
-	<StringTable Name='$ID_VIDEO_DENOISE_D' String='Объемное шумоподавление' />
+    <StringTable Name='$ID_VIDEO_BLUR' String='Размытие' />
+    <StringTable Name='$ID_VIDEO_SHARPEN' String='Резкость' />
+    <StringTable Name='$ID_VIDEO_DENOISE_D' String='Объемное шумоподавление' />
     <StringTable Name='$ID_VIDEO_POSTPROC' String='Устранение блоков' />
-    
+
     <StringTable Name='$CONTROL_FRAME_SIZE' String='Позиция и размер видео' />
-	<StringTable Name='$CONTROL_ASPECT_RATIO' String='Соотношение сторон' />
+    <StringTable Name='$CONTROL_ASPECT_RATIO' String='Соотношение сторон' />
     <StringTable Name='$ID_OUTPUT_RATIO' String='Выходное' />
     <StringTable Name='$ID_SOURCE_RATIO' String='Исходное' />
     <StringTable Name='$CONTROL_VIDEO_POSITION' String='Позиция видео' />
@@ -77,7 +77,7 @@
     <StringTable Name='$CONTROL_SCREEN_ROTATION' String='Поворот видео' />
     <StringTable Name='$ID_VIDEO_ROTATE_CYCLE' String='Последовательный поворот' />
     <StringTable Name='$ID_VIDEO_ROTATE_NONE' String='Исходное состояние видео' />
-       
+
     <StringTable Name='$CONTROL_SUBTITLES' String='Субтитры' />
     <StringTable Name='$CONTROL_SHOW_SUBTITLES' String='Показывать субтитры' />
     <StringTable Name='$CONTROL_SELECT_SUBTITLES' String='Выбор субтитров' />
@@ -96,8 +96,8 @@
     <StringTable Name='$ID_CAPTION_SLOW_SYNC' String='Медленнее' />
     <StringTable Name='$ID_CAPTION_FAST_SYNC' String='Быстрее' />
     <StringTable Name='$ID_CAPTION_RESET_SYNC' String='Синхронизация субтитров по умолчанию' />
-    
-	<StringTable Name='$CONTROL_AUDIO' String='Аудио' />
+
+    <StringTable Name='$CONTROL_AUDIO' String='Аудио' />
     <StringTable Name='$CONTROL_SELECT_AUDIO_STREAM' String='Выбор аудио-дорожки' />
     <StringTable Name='$CONTROL_AUDIO_EFFECTS' String='Фильтры обработки аудио' />
     <StringTable Name='$ID_AUDIO_NORMALIZE' String='Нормализация' />
@@ -106,13 +106,13 @@
     <StringTable Name='$ID_AUDIO_SLOWER' String='Медленнее' />
     <StringTable Name='$ID_AUDIO_FASTER' String='Быстрее' />
     <StringTable Name='$ID_AUDIO_NORMAL' String='Синхронизация аудио по умолчанию' />
-    
+
     <StringTable Name='$CONTROL_EQUALIZER' String='Эквалайзер' />
     <StringTable Name='$CONTROL_USE_EQUALIZER' String='Использовать эквалайзер' />
     <StringTable Name='$CONTROL_SELECT_EQUALIZER_PRESET' String='Предустановки эквалайзера' />
     <StringTable Name='$CMD_POPUPMENU_EQULIZER_PRESET' String='Шаблон' />
-    
-	<StringTable Name='$CONTROL_PLAYBACK' String='Воспроизведение' />
+
+    <StringTable Name='$CONTROL_PLAYBACK' String='Воспроизведение' />
     <StringTable Name='$CONTROL_AB_REPEAT' String='Повтор отрезка' />
     <StringTable Name='$ID_PLAY_REPEAT_START_RESET' String='Отменить начало отрезка' />
     <StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Задать начало отрезка' />
@@ -132,7 +132,7 @@
     <StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Медленнее' />
     <StringTable Name='$ID_PLAY_SPEED_FASTER' String='Быстрее' />
     <StringTable Name='$ID_PLAY_SPEED_NORMAL' String='Обычная скорость воспроизведения' />
-    
+
     <StringTable Name='$CONTROL_CAPTURE' String='Запись' />
     <StringTable Name='$CONTROL_START_CAPTURE' String='Начать запись' />
     <StringTable Name='$CONTROL_CAPTURE_IMAGE' String='Кадра' />
@@ -141,61 +141,61 @@
     <StringTable Name='$CONTROL_CAPTURE_SETTINGS' String='Настройки записи' />
     <StringTable Name='$CONTROL_OPEN_STORAGE_FOLDER' String='Открыть папку записи' />
 #else
-	<StringTable Name='$MAIN_TITLE' String='PotPlayer' />
-	<StringTable Name='$CMD_PLAYLIST_TAB_SELECT' String='Playlist | Detach playlist' />
+    <StringTable Name='$MAIN_TITLE' String='PotPlayer' />
+    <StringTable Name='$CMD_PLAYLIST_TAB_SELECT' String='Playlist | Detach playlist' />
     <StringTable Name='$CMD_BROADCAST_LIST_TAB_SELECT' String='Broadcast | Detach broadcast list' />
     <StringTable Name='$CMD_CHAT_TAB_SELECT' String='Chat | Detach chat room' />
     <StringTable Name='$CMD_PLAYLIST_WINDOW_OFF' String='Show playlist' />
     <StringTable Name='$CMD_PLAYLIST_WINDOW_ON' String='Hide playlist' />
     <StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Control panel' />
-    
+
     <StringTable Name='$ID_CLOSE_WINDOW' String='Close' />
     <StringTable Name='$ID_APP_EXIT' String='Exit' />
     <StringTable Name='$CMD_MAX_WINDOW' String='Maximize' />
     <StringTable Name='$CMD_RESTORE_WINDOW' String='Restore' />
-	<StringTable Name='$CMD_MIN_WINDOW' String='Minimize' />
-    
+    <StringTable Name='$CMD_MIN_WINDOW' String='Minimize' />
+
     <StringTable Name='$CMD_CURRENTTIME_MESSAGE' String='Elapsed time' />
     <StringTable Name='$CMD_TOTALTIME_MESSAGE' String='Total time' />
     <StringTable Name='$CMD_LEFTTIME_MESSAGE' String='Remaining time' />
-	<StringTable Name='$CMD_MEDIA_PLAY' String='Play' />
-	<StringTable Name='$CMD_MEDIA_PAUSE' String='Pause' />
-	<StringTable Name='$ID_CLOSE_MEDIA' String='Stop' />
-	<StringTable Name='$ID_PROCESS_PREV_PLAYBACK_5SEC_BACK' String='Play previous | Seek backward' />
-	<StringTable Name='$ID_PROCESS_NEXT_PLAYBACK_5SEC_FORW' String='Play next | Seek forward'/>
-	<StringTable Name='$ID_AUDIO_MUTE_ON' String='Mute On' />
+    <StringTable Name='$CMD_MEDIA_PLAY' String='Play' />
+    <StringTable Name='$CMD_MEDIA_PAUSE' String='Pause' />
+    <StringTable Name='$ID_CLOSE_MEDIA' String='Stop' />
+    <StringTable Name='$ID_PROCESS_PREV_PLAYBACK_5SEC_BACK' String='Play previous | Seek backward' />
+    <StringTable Name='$ID_PROCESS_NEXT_PLAYBACK_5SEC_FORW' String='Play next | Seek forward'/>
+    <StringTable Name='$ID_AUDIO_MUTE_ON' String='Mute On' />
     <StringTable Name='$ID_AUDIO_MUTE_OFF' String='Mute Off' />
     <StringTable Name='$CMD_VOLUME_CTRL' String='Volume' />
-    
+
     <StringTable Name='$PLAYLIST_TITLE' String='Playlist' />
     <StringTable Name='$CMD_ATTACH_MAIN' String='Attach to main' />
     <StringTable Name='$CMD_PLAYLIST_ADD' String='Add to playlist' />
-	<StringTable Name='$CMD_PLAYLIST_DEL' String='Delete from playlist' />
+    <StringTable Name='$CMD_PLAYLIST_DEL' String='Delete from playlist' />
     <StringTable Name='$ID_PLAYBACK_SHUFFLE_OFF' String='Shuffle playback Off' />
     <StringTable Name='$ID_PLAYBACK_SHUFFLE_ON' String='Shuffle playback On' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_OFF' String='Repeat playback Off' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_ALL' String='Repeat all' />
     <StringTable Name='$ID_PLAYBACK_REPEAT_ONE' String='Repeat one' />
-    
+
     <StringTable Name='$CONTROL_SWITCH_ON' String='On' />
     <StringTable Name='$CONTROL_SWITCH_OFF' String='Off' />
-    
+
     <StringTable Name='$CONTROL_VIDEO' String='Video' />
     <StringTable Name='$CONTROL_COLOR_CONTROLS' String='Color controls' />
-	<StringTable Name='$CMD_COLOR_OFFSET' String='Brightness' />
-	<StringTable Name='$CMD_COLOR_GAIN' String='Contrast' />
-	<StringTable Name='$CMD_COLOR_SAT' String='Saturation' />
-	<StringTable Name='$CMD_COLOR_HUE' String='Hue' />
+    <StringTable Name='$CMD_COLOR_OFFSET' String='Brightness' />
+    <StringTable Name='$CMD_COLOR_GAIN' String='Contrast' />
+    <StringTable Name='$CMD_COLOR_SAT' String='Saturation' />
+    <StringTable Name='$CMD_COLOR_HUE' String='Hue' />
     <StringTable Name='$CMD_COLOR_OFFSET_DEFAULT' String='Reset brightness' />
-	<StringTable Name='$CMD_COLOR_GAIN_DEFAULT' String='Reset contrast' />
-	<StringTable Name='$CMD_COLOR_SAT_DEFAULT' String='Reset saturation' />
-	<StringTable Name='$CMD_COLOR_HUE_DEFAULT' String='Reset hue' />
+    <StringTable Name='$CMD_COLOR_GAIN_DEFAULT' String='Reset contrast' />
+    <StringTable Name='$CMD_COLOR_SAT_DEFAULT' String='Reset saturation' />
+    <StringTable Name='$CMD_COLOR_HUE_DEFAULT' String='Reset hue' />
     <StringTable Name='$CONTROL_VIDEO_EFFECTS' String='Video effects' />
-	<StringTable Name='$ID_VIDEO_BLUR' String='Soften' />
-	<StringTable Name='$ID_VIDEO_SHARPEN' String='Sharpen' />
-	<StringTable Name='$ID_VIDEO_DENOISE_D' String='Denoise 3D' />
+    <StringTable Name='$ID_VIDEO_BLUR' String='Soften' />
+    <StringTable Name='$ID_VIDEO_SHARPEN' String='Sharpen' />
+    <StringTable Name='$ID_VIDEO_DENOISE_D' String='Denoise 3D' />
     <StringTable Name='$ID_VIDEO_POSTPROC' String='Deblock' />
-    
+
     <StringTable Name='$CONTROL_FRAME_SIZE' String='Frame size' />
     <StringTable Name='$CONTROL_ASPECT_RATIO' String='Aspect ratio' />
     <StringTable Name='$ID_OUTPUT_RATIO' String='Output' />
@@ -219,7 +219,7 @@
     <StringTable Name='$CONTROL_SCREEN_ROTATION' String='Screen rotation' />
     <StringTable Name='$ID_VIDEO_ROTATE_CYCLE' String='Cycle screen rotation' />
     <StringTable Name='$ID_VIDEO_ROTATE_NONE' String='Reset screen rotation' />
-    
+
     <StringTable Name='$CONTROL_SUBTITLES' String='Subtitles' />
     <StringTable Name='$CONTROL_SHOW_SUBTITLES' String='Show subtitles' />
     <StringTable Name='$CONTROL_SELECT_SUBTITLES' String='Select subtitles' />
@@ -238,8 +238,8 @@
     <StringTable Name='$ID_CAPTION_SLOW_SYNC' String='Slower' />
     <StringTable Name='$ID_CAPTION_FAST_SYNC' String='Faster' />
     <StringTable Name='$ID_CAPTION_RESET_SYNC' String='Default subtitles sync' />
-    
-	<StringTable Name='$CONTROL_AUDIO' String='Audio' />
+
+    <StringTable Name='$CONTROL_AUDIO' String='Audio' />
     <StringTable Name='$CONTROL_SELECT_AUDIO_STREAM' String='Select audio stream' />
     <StringTable Name='$CONTROL_AUDIO_EFFECTS' String='Audio effects' />
     <StringTable Name='$ID_AUDIO_NORMALIZE' String='Normalizer' />
@@ -248,20 +248,20 @@
     <StringTable Name='$ID_AUDIO_SLOWER' String='Slower' />
     <StringTable Name='$ID_AUDIO_FASTER' String='Faster' />
     <StringTable Name='$ID_AUDIO_NORMAL' String='Default audio sync' />
-    
+
     <StringTable Name='$CONTROL_EQUALIZER' String='Equalizer' />
     <StringTable Name='$CONTROL_USE_EQUALIZER' String='Use equalizer' />
     <StringTable Name='$CONTROL_SELECT_EQUALIZER_PRESET' String='Select equalizer preset' />
     <StringTable Name='$CMD_POPUPMENU_EQULIZER_PRESET' String='Preset' />
-    
-	<StringTable Name='$CONTROL_PLAYBACK' String='Playback' />
+
+    <StringTable Name='$CONTROL_PLAYBACK' String='Playback' />
     <StringTable Name='$CONTROL_AB_REPEAT' String='A-B repeat' />
     <StringTable Name='$ID_PLAY_REPEAT_START_RESET' String='Reset point A' />
     <StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Set starting point' />
     <StringTable Name='$ID_PLAY_REPEAT_STOP_RESET' String='Reset point B' />
     <StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Set ending point' />
     <StringTable Name='$ID_PLAY_REPEAT_RESET' String='Start/Stop A-B section repeat' />
-    <StringTable Name='$CONTROL_JUMP_TO' String='Jump to' />   
+    <StringTable Name='$CONTROL_JUMP_TO' String='Jump to' />
     <StringTable Name='$ID_PLAYBACK_5SEC_BACK' String='5 Sec. backward' />
     <StringTable Name='$ID_PLAYBACK_5SEC_BACK_TEXT' String='-5 Sec.' />
     <StringTable Name='$ID_PLAY_PREV_FRAME' String='Previous frame' />
@@ -274,7 +274,7 @@
     <StringTable Name='$ID_PLAY_SPEED_SLOWER' String='Slower' />
     <StringTable Name='$ID_PLAY_SPEED_FASTER' String='Faster' />
     <StringTable Name='$ID_PLAY_SPEED_NORMAL' String='Normal playback speed' />
-    
+
     <StringTable Name='$CONTROL_CAPTURE' String='Capture' />
     <StringTable Name='$CONTROL_START_CAPTURE' String='Start capture' />
     <StringTable Name='$CONTROL_CAPTURE_IMAGE' String='Image' />

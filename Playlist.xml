@@ -1,22 +1,6 @@
-﻿<PlaylistSkinArea Image='PlayList.png' AlphaMode='1' WidthLimit='350' HeightLimit='250'
-  SelBkgndColorX='514' SelBkgndColorY='31' FrameColorX='514' FrameColorY='31'
-  BkgndColor1X='518' BkgndColor1Y='48' BkgndColor2X='508' BkgndColor2Y='48'
-  CurTextColorX='518' CurTextColorY='81' SelTextColorX='518' SelTextColorY='64' TextColorX='518' TextColorY='98' PlayedTextColorX='518' PlayedTextColorY='98'
-  LineColorX='518' LineColorY='48'
-  AlbumTabX='170' AlbumTabY='0' AlbumTabW='70' AlbumTabH='30'
-  AlbumTabBtnX='170' AlbumTabBtnY='30' AlbumTabBtnW='70' AlbumTabBtnH='30' AlbumTabBtnMargin='0'
-  AlbumTabTextX='518' AlbumTabTextY='146' AlbumTabSelTextX='518' AlbumTabSelTextY='130'
-  AlbumTabDelX='170' AlbumTabDelY='95' AlbumTabDelW='10' AlbumTabDelH='10'
-  AlbumTabLeftX='418' AlbumTabLeftY='66' AlbumTabLeftW='19' AlbumTabLeftH='18'
-  AlbumTabRightX='418' AlbumTabRightY='48' AlbumTabRightW='19' AlbumTabRightH='18' 
-  AlbumTabPopupX='418' AlbumTabPopupY='84' AlbumTabPopupW='19' AlbumTabPopupH='18'
-  AlbumTabFontSize='10' AlbumTabFontBold='0'
-  SearchIconX='21' SearchIconY='96' SearchIconW='15' SearchIconH='16'
-  SearchIconSelX='46' SearchIconSelY='96' SearchIconSelW='15' SearchIconSelH='16'
-  SearchBkgndColorX='514' SearchBkgndColorY='16' SearchSelBkgndColorX='514' SearchSelBkgndColorY='16' 
-  LeftMargin='2' RightMargin='2' TopMargin='2' BottomMargin='2' UseWindowFrame='0' >
+﻿<PlaylistSkinArea Image='PlayList.png' AlphaMode='1' WidthLimit='350' HeightLimit='250' SelBkgndColorX='514' SelBkgndColorY='31' FrameColorX='514' FrameColorY='31' BkgndColor1X='518' BkgndColor1Y='48' BkgndColor2X='508' BkgndColor2Y='48' CurTextColorX='518' CurTextColorY='81' SelTextColorX='518' SelTextColorY='64' TextColorX='518' TextColorY='98' PlayedTextColorX='518' PlayedTextColorY='98' LineColorX='518' LineColorY='48' AlbumTabX='170' AlbumTabY='0' AlbumTabW='70' AlbumTabH='30' AlbumTabBtnX='170' AlbumTabBtnY='30' AlbumTabBtnW='70' AlbumTabBtnH='30' AlbumTabBtnMargin='0' AlbumTabTextX='518' AlbumTabTextY='146' AlbumTabSelTextX='518' AlbumTabSelTextY='130' AlbumTabDelX='170' AlbumTabDelY='95' AlbumTabDelW='10' AlbumTabDelH='10' AlbumTabLeftX='418' AlbumTabLeftY='66' AlbumTabLeftW='19' AlbumTabLeftH='18' AlbumTabRightX='418' AlbumTabRightY='48' AlbumTabRightW='19' AlbumTabRightH='18' AlbumTabPopupX='418' AlbumTabPopupY='84' AlbumTabPopupW='19' AlbumTabPopupH='18' AlbumTabFontSize='10' AlbumTabFontBold='0' SearchIconX='21' SearchIconY='96' SearchIconW='15' SearchIconH='16' SearchIconSelX='46' SearchIconSelY='96' SearchIconSelW='15' SearchIconSelH='16' SearchBkgndColorX='514' SearchBkgndColorY='16' SearchSelBkgndColorX='514' SearchSelBkgndColorY='16' LeftMargin='2' RightMargin='2' TopMargin='2' BottomMargin='2' UseWindowFrame='0' >
 	<Control>
-	<!-- Window Margins -->
+		<!-- Window Margins -->
 		<Static Align='Top' Height='30' ImageLeft='0' ImageTop='1' ImageWidth='35' ImageHeight='89' LeftMargin='1' RightMargin='1' UsingRgn='1' IsTitleBar='1'>
 			<Button Tooltip='$CMD_ATTACH_MAIN' CmdID='CMD_ATTACH_PLAYLIST' Left='-90' Top='0' Height='30' ImageLeft='35' ImageTop='30' Width='45' />
 			<Label Text='$PLAYLIST_TITLE' OffsetTop='8' OffsetLeft='12' Align='Left' Left='12' Top='8' FontName='Segoe UI' FontBold='1' FontSize='12' ColorX='6' ColorY='140' />
@@ -24,66 +8,66 @@
 		</Static>
 		<Static Align='Left' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' TopMargin='1' BottomMargin='1' />
 		<Static Align='Right' Width='5' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' TopMargin='1' BottomMargin='1' />
-	<!-- Playlist -->
-		<Static Align='Bottom' Height='40' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >		
+		<!-- Playlist -->
+		<Static Align='Bottom' Height='40' ImageLeft='0' ImageTop='0' ImageWidth='35' ImageHeight='90' LeftMargin='1' RightMargin='1' TopMargin='1' BottomMargin='1' >
 			<Static Top='-40' Height='40' UsingAlpha='1' >
 				<Layout Align='Right' Width='2'/>
-					<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' />
+				<Button Tooltip='$PLAYLIST_DEL' CmdID='CMD_PLAYLIST_DEL' Align='Right' Width='60' ImageLeft='472' ImageTop='389' ImageWidth='60' ImageHeight='32' />
 				<Layout Align='Right' Width='5'/>
-					<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
+				<Button Tooltip='$PLAYLIST_ADD' CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='60' ImageLeft='472' ImageTop='355' ImageWidth='60' ImageHeight='32' />
 				<Layout Align='Right' Width='5'/>
-					<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />
-					
-					<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
+				<Button Tooltip='$PLAYLIST_SORT' CmdID='CMD_PLAYLIST_MENU_SORT' Align='Right' Width='60' ImageLeft='472' ImageTop='423' ImageWidth='60' ImageHeight='32' />
+
+				<Button Tooltip='$CMD_PLAYLIST_TOP' CmdID='CMD_PLAYLIST_TOP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='219' ImageWidth='32' ImageHeight='32' />
 				<Layout Align='Left' Width='5'/>
-					<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left'  Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
+				<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left' Bottom='5' Width='32' ImageLeft='472' ImageTop='253' ImageWidth='32' ImageHeight='32' />
 				<Layout Align='Left' Width='5'/>
 				<Button Tooltip='$CMD_PLAYLIST_DOWN' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='32' ImageLeft='472' ImageTop='287' ImageWidth='32' ImageHeight='32' />
-				<Layout Align='Left' Width='5'/>	
-					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />	
+				<Layout Align='Left' Width='5'/>
+				<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='32' ImageLeft='472' ImageTop='321' ImageWidth='32' ImageHeight='32' />
 				<Layout Align='Left' Width='5'/>
 			</Static>
 		</Static>
 
 		<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER'>
-				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB'/>
+			<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB'/>
 			
 			#if<SkinStyle==SettingsOn>
-				<Static Image='ControlPanel.png' State='CMD_PLAYLIST_ATTACH' Align='Client'>
-					<Static Align='Left' Width='48' ImageLeft='80' ImageTop='0' ImageWidth='48' ImageHeight='219' TopMargin='1' BottomMargin='1'>
-						<Button  Tooltip='Back' CmdID='CMD_SET_SKIN_STYLE' Align="Top" SkinStyle='SettingsOn' Width='48' Height='48' ImageLeft='632' ImageTop='336' />
-						<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_AUDIO_VOL_MODE" PageIndex="0" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="0" />
-						<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO_FILTER" PageIndex="1" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="48" />
-						<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_CAPTION_INPUT" PageIndex="2" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="96" />
-						<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO" PageIndex="3" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="144" />
-						<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_SCREEN_RATIO_SETTING" PageIndex="4" Left="0"  Width="48" Height="48" ImageLeft="632" ImageTop="192" />
+			<Static Image='ControlPanel.png' State='CMD_PLAYLIST_ATTACH' Align='Client'>
+				<Static Align='Left' Width='48' ImageLeft='80' ImageTop='0' ImageWidth='48' ImageHeight='219' TopMargin='1' BottomMargin='1'>
+					<Button Tooltip='Back' CmdID='CMD_SET_SKIN_STYLE' Align="Top" SkinStyle='SettingsOn' Width='48' Height='48' ImageLeft='632' ImageTop='336' />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_AUDIO_VOL_MODE" PageIndex="0" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="0" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO_FILTER" PageIndex="1" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="48" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_CAPTION_INPUT" PageIndex="2" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="96" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="CMD_POPUPMENU_VIDEO" PageIndex="3" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="144" />
+					<Button Align="Top" CmdID="CMD_SELECT_PAGE" AltCmdID="ID_SCREEN_RATIO_SETTING" PageIndex="4" Left="0" Width="48" Height="48" ImageLeft="632" ImageTop="192" />
 
-					</Static>
+				</Static>
 
-					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="0" Width="302" Height="218" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+				<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="0" Width="302" Height="218" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
 						#include<PageEqualizer.xml>
 					</Static>
 
 					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="1" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-						#include<PageVideo.xml>	
-					</Static>
+						#include<PageVideo.xml>
+						</Static>
 
-					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="2" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-						#include<PageSubtitle.xml>	
-					</Static>
-					
-					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="3" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-						#include<PagePlayback.xml>	
-					</Static>
+						<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="2" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+						#include<PageSubtitle.xml>
+							</Static>
 
-					<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="4" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
-						#include<PageFrameSize.xml>	
-					</Static>
-				</Static>
+							<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="3" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+						#include<PagePlayback.xml>
+								</Static>
+
+								<Static Align="Client" State="CMD_PAGE_CONTROL" PageIndex="4" Width="302" Height="219" ImageTop="0" ImageLeft="235" ImageWidth="313" ImageHeight="219" TopMargin="100" BottomMargin="100" LeftMargin='100' RightMargin='100' >
+						#include<PageFrameSize.xml>
+									</Static>
+								</Static>
 				
 			#endif
 		
 
-		</Static>
-	</Control>
-</PlaylistSkinArea>
+							</Static>
+						</Control>
+					</PlaylistSkinArea>
